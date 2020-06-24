@@ -4,11 +4,13 @@ import NavBar from './navbar';
 import Main from './main';
 import Menu from './menu';
 
+import '../assets/stylesheets/reset.css';
+
 const Root = () => (
   <HashRouter>
     <div>
         <NavBar />
-        
+
       <Switch>
         <Route path="/menu" component={Menu} />
         <Route path="/" component={Main} />

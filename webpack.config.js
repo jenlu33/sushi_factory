@@ -1,7 +1,7 @@
 var path = require('path');
 
 module.exports = {
-  entry: './frontend/entry.jsx',
+  entry: './src/index.js',
   output: {
     filename: './bundle.js',
   },
