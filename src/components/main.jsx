@@ -10,7 +10,6 @@ class Main extends React.Component {
       <div>
         <h1>Main Page</h1>
         {<About />}
-        {<Menu />}
       
       </div>
     )
