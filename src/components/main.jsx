@@ -9,7 +9,6 @@ class Main extends React.Component {
     return (
       <div>
         <h1>Main Page</h1>
-        {<Navbar />}
         {<About />}
         {<Menu />}
       
