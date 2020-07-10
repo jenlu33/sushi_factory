@@ -1,9 +1,15 @@
 .main-menu-div {
   /* border: 1px solid red; */
+  margin-bottom: 50px;
+  width: 100vw;
 }
 
 .menu-container {
+  border: 1px solid red;
   padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .menu-title-container {
@@ -31,6 +37,12 @@
   color: white;
 }
 
+.sushi-menu {
+  /* border: 1px solid red; */
+  width: 100%;
+  margin: 15px 0;
+}
+
 .menu-subtitle {
   /* border: 1px solid red; */
   display: flex;
@@ -41,8 +53,8 @@
 }
 
 .menu {
-  border: 1px solid gray;
-  border-radius: 3px;
+  /* border: 1px solid red; */
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,11 +62,21 @@
   text-align: center;
 }
 
+.sub-menu {
+  border: 1px solid gray;
+  border-radius: 3px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
 .menu-item {
   /* border: 1px solid red; */
   margin: 2px 0;
-  padding: 5px;
-  width: 90%;
+  padding: 5px 10px;
+  width: 98%;
   display: flex;
   justify-content: space-between;
   

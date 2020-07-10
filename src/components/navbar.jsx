@@ -4,14 +4,8 @@ import { Link } from 'react-router-dom';
 import '../assets/stylesheets/navbar.css'
 
 class Navbar extends React.Component {
-
-  componentDidMount() {
-    console.log(this.history);
-    
-  }
   
   render() {
-    const display = this.props.match
     return (
       <div className="navbar-main">
         <div className="head">

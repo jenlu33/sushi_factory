@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './navbar';
+// import Navbar from './navbar';
 import About from './about';
 import Order from './order';
 
