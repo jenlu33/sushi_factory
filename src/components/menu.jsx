@@ -393,6 +393,11 @@ class Menu extends React.Component {
               <p>Tea</p>
             </div>
 
+            <div className="tea-guide">
+              <p>favorites</p>
+              <p>available hot</p>
+            </div>
+
             <div className="menu">
               <div className="sub-menu tea">
                 <h3>Bubble Milk Tea </h3>
@@ -419,6 +424,18 @@ class Menu extends React.Component {
                   <p>Strawberry</p>
                   <p>Lychee</p>
                   <p>Honeydew</p>
+                  <p>Blueberry</p>
+                  <p>Guava</p>
+                  <p>Rose</p>
+                  <p>Lavender</p>
+                  <p>Peach</p>
+                  <p>Passion Fruit</p>
+                  <p>Winter Melon</p>
+                  <p>Honey</p>
+                  <p>Coffee</p>
+                  <p>Coconut</p>
+                  <p>Almond</p>
+                  <p>Chocolate</p>
                 </div>
               </div>
             </div>
