@@ -18,7 +18,7 @@ class Menu extends React.Component {
           {/* ----------------------------- SUSHI MENU ----------------------------- */}
           <div className="sushi-menu">
             <div id="sushi" className="menu-subtitle">
-              <p>Sushi</p>
+              <p>Sushi*</p>
             </div>
             <div className="menu">
               <div className="sub-menu-title">
@@ -394,11 +394,31 @@ class Menu extends React.Component {
             </div>
 
             <div className="menu">
-              <div className="sub-menu">
-                <h3>Blah </h3>
+              <div className="sub-menu tea">
+                <h3>Bubble Milk Tea </h3>
                 <div className="menu-item">
-                  <p>menu item</p>
+                  <p>Medium</p>
                   <p>menu item price</p>
+                </div>
+                <div className="menu-item">
+                  <p>Large</p>
+                  <p>menu item price</p>
+                </div>
+
+                <h3>Flavors</h3>
+                <div className="tea-flavors">
+                  <p>Original</p>
+                  <p>Thai</p>
+                  <p>Taro</p>
+                  <p>Matcha</p>
+                  <p>Caramel</p>
+                  <p>Hazelnut</p>
+                  <p>Red Bean</p>
+                  <p>Mango</p>
+                  <p>White Peach</p>
+                  <p>Strawberry</p>
+                  <p>Lychee</p>
+                  <p>Honeydew</p>
                 </div>
               </div>
             </div>
