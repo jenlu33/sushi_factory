@@ -4,6 +4,8 @@
   /* border: 1px solid red; */
   margin-bottom: 50px;
   width: 100vw;
+  min-width: 700px;
+  font-family: 'Jost', sans-serif;;
 }
 
 .menu-container {
@@ -104,12 +106,30 @@
 
 /* ----- TEA MENU ------ */
 
+.tea-menu {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
 .tea {
   border: none;
 }
 
+.tea-guide {
+  /* border: 1px solid red; */
+  width: 50%;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+}
+
 .tea-flavors {
   /* border: 1px solid red; */
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -118,6 +138,33 @@
 .tea-flavors > p {
   border-radius: 3px;
   margin: 5px;
-  padding: 7px 10px;
-  background-color: rgb(255, 243, 176);
+  padding: 10px 12px;
+  background-color: rgb(252, 242, 184);
+}
+
+.double-sub-menu-container {
+  /* border: 1px solid red; */
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.double-sub-menu {
+  /* border: 1px solid red; */
+  margin: 10px 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.special-drinks-menu {
+  border: 2px solid rgb(134, 44, 44);
+  margin: 20px 0;
+  padding: 2px;
+  border-radius: 3px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
