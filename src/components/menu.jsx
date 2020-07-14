@@ -509,75 +509,54 @@ class Menu extends React.Component {
 
                 <div className="special-drinks-menu">
                   <p>Specials and Seasonal Drinks</p>
+                  <p>4.95</p>
                   <div className="menu-item">
                     <div className="item-description">
                       <p>Tiger Bubble Tea</p>
-                      <p>brown sugar milk tea w brown sugar bubbles</p>
+                      <p>Brown sugar milk tea with brown sugar bubbles</p>
                     </div>
-                    <p>menu item price</p>
                   </div>
                   <div className="menu-item">
                     <div className="item-description">
-                      <p>Tiger Bubble Tea</p>
-                      <p>brown sugar milk tea w brown sugar bubbles</p>
+                      <p>First Love</p>
+                      <p>Rose and white peach infused milk tea with bubbles</p>
                     </div>
-                    <p>menu item price</p>
                   </div>
                   <div className="menu-item">
                     <div className="item-description">
-                      <p>Tiger Bubble Tea</p>
-                      <p>brown sugar milk tea w brown sugar bubbles</p>
+                      <p>Matcha Brown Sugar Latte</p>
+                      <p>Matcha milk tea with brown sugar bubbles</p>
                     </div>
-                    <p>menu item price</p>
                   </div>
                   <div className="menu-item">
                     <div className="item-description">
-                      <p>Tiger Bubble Tea</p>
-                      <p>brown sugar milk tea w brown sugar bubbles</p>
+                      <p>One in a Melon</p>
+                      <p>Winter melon milk tea with brown sugar and bubbles</p>
                     </div>
-                    <p>menu item price</p>
                   </div>
                   <div className="menu-item">
                     <div className="item-description">
-                      <p>Tiger Bubble Tea</p>
-                      <p>brown sugar milk tea w brown sugar bubbles</p>
+                      <p>Pink Lady</p>
+                      <p>Rose, white peach, and lemon infused green tea with rainbow jellies</p>
                     </div>
-                    <p>menu item price</p>
                   </div>
                   <div className="menu-item">
                     <div className="item-description">
-                      <p>Tiger Bubble Tea</p>
-                      <p>brown sugar milk tea w brown sugar bubbles</p>
+                      <p>Sweet Green</p>
+                      <p>Lychee, honeydew, and honey green tea with lychee jellies</p>
                     </div>
-                    <p>menu item price</p>
                   </div>
                   <div className="menu-item">
                     <div className="item-description">
-                      <p>Tiger Bubble Tea</p>
-                      <p>brown sugar milk tea w brown sugar bubbles</p>
+                      <p>Sunrise</p>
+                      <p>Kumquat, lemon, honey, and passion fruit green tea with lychee jellies</p>
                     </div>
-                    <p>menu item price</p>
                   </div>
                   <div className="menu-item">
                     <div className="item-description">
-                      <p>Tiger Bubble Tea</p>
-                      <p>brown sugar milk tea w brown sugar bubbles</p>
+                      <p>Hello Kitty</p>
+                      <p>Strawberry and lychee green tea with rainbow jellies</p>
                     </div>
-                    <p>menu item price</p>
-                  </div>
-                  <div className="menu-item">
-                    <div className="item-description">
-                      <p>Tiger Bubble Tea</p>
-                      <p>brown sugar milk tea w brown sugar bubbles</p>
-                    </div>
-                    <p>menu item price</p>
-                  </div>
-                  <div className="menu-item">
-                    <div className="item-description">
-                      <p>Tiger Bubble Tea</p>
-                      <p>brown sugar milk tea w brown sugar bubbles</p>
-                    </div>
-                    <p>menu item price</p>
                   </div>
                 </div>
               </div>
