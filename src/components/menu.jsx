@@ -394,8 +394,8 @@ class Menu extends React.Component {
             </div>
 
             <div className="tea-guide">
-              <p>favorites (add star icon)</p>
-              <p>available hot (add mug icon)</p>
+              <p><i class="fas fa-star fa-xs"></i>Favorites</p>
+              <p><i class="fas fa-mug-hot fa-sm"></i>Available Hot</p>
             </div>
 
             <div className="menu">
@@ -412,32 +412,33 @@ class Menu extends React.Component {
 
                 <h3>Flavors</h3>
                 <div className="tea-flavors">
-                  <p>Original</p>
-                  <p>Thai</p>
-                  <p>Taro</p>
-                  <p>Matcha</p>
-                  <p>Caramel</p>
-                  <p>Hazelnut</p>
-                  <p>Red Bean</p>
-                  <p>Mango</p>
-                  <p>White Peach</p>
+                  <p>Original <i class="fas fa-star fa-xs"></i><i class="fas fa-mug-hot fa-sm"></i></p>
+                  <p>Thai <i class="fas fa-star fa-xs"></i></p>
+                  <p>Taro <i class="fas fa-star fa-xs"></i><i class="fas fa-mug-hot fa-sm"></i></p>
+                  <p>Matcha <i class="fas fa-mug-hot fa-sm"></i></p>
+                  <p>Caramel <i class="fas fa-mug-hot fa-sm"></i></p>
+                  <p>Hazelnut <i class="fas fa-mug-hot fa-sm"></i></p>
+                  <p>Red Bean <i class="fas fa-mug-hot fa-sm"></i></p>
+                  <p>Mango <i class="fas fa-star fa-xs"></i></p>
+                  <p>White Peach <i class="fas fa-star fa-xs"></i></p>
                   <p>Strawberry</p>
-                  <p>Lychee</p>
+                  <p>Lychee <i class="fas fa-star fa-xs"></i></p>
                   <p>Honeydew</p>
                   <p>Blueberry</p>
                   <p>Guava</p>
-                  <p>Rose</p>
-                  <p>Lavender</p>
+                  <p>Rose <i class="fas fa-star fa-xs"></i><i class="fas fa-mug-hot fa-sm"></i></p>
+                  <p>Lavender <i class="fas fa-mug-hot fa-sm"></i></p>
                   <p>Peach</p>
                   <p>Passion Fruit</p>
                   <p>Winter Melon</p>
-                  <p>Honey</p>
-                  <p>Coffee</p>
-                  <p>Coconut</p>
-                  <p>Almond</p>
-                  <p>Chocolate</p>
+                  <p>Honey <i class="fas fa-mug-hot fa-sm"></i></p>
+                  <p>Coffee <i class="fas fa-mug-hot fa-sm"></i></p>
+                  <p>Coconut <i class="fas fa-mug-hot fa-sm"></i></p>
+                  <p>Almond <i class="fas fa-mug-hot fa-sm"></i></p>
+                  <p>Chocolate <i class="fas fa-mug-hot fa-sm"></i></p>
                 </div>
-
+                <p>Sugar level: 100% - 75% - 50% - 25%</p>
+                <br/>
                 <h3>Extra</h3>
                 <div className="menu-item">
                   <p>Extra Bubbles</p>
@@ -475,7 +476,7 @@ class Menu extends React.Component {
                       <p>Large</p>
                       <p>000</p>
                     </div>
-                    <p>All iced teas also available hot</p>
+                    <p><i class="fas fa-mug-hot fa-sm"></i> All iced teas also available hot </p>
                   </div>
                   <div className="double-sub-menu">
                     <h3>Iced Dodo Drink</h3>
@@ -492,9 +493,9 @@ class Menu extends React.Component {
 
                 <h3>Flavors</h3>
                 <div className="tea-flavors">
-                  <p>Mango</p>
-                  <p>Strawberry</p>
-                  <p>Lychee</p>
+                  <p>Mango <i class="fas fa-star fa-xs"></i></p>
+                  <p>Strawberry <i class="fas fa-star fa-xs"></i></p>
+                  <p>Lychee <i class="fas fa-star fa-xs"></i></p>
                   <p>Peach</p>
                   <p>Guava</p>
                   <p>Lemon</p>
@@ -503,7 +504,7 @@ class Menu extends React.Component {
                   <p>Lavender</p>
                   <p>Passion Fruit</p>
                   <p>Honeydew</p>
-                  <p>White Peach</p>
+                  <p>White Peach <i class="fas fa-star fa-xs"></i></p>
                   <p>Blueberry</p>
                 </div>
 
@@ -556,6 +557,12 @@ class Menu extends React.Component {
                     <div className="item-description">
                       <p>Hello Kitty</p>
                       <p>Strawberry and lychee green tea with rainbow jellies</p>
+                    </div>
+                  </div>
+                  <div className="menu-item">
+                    <div className="item-description">
+                      <p>Fresh Summer Slush</p>
+                      <p>Choice of strawberry, blueberry, mango, or original lemonade mixed with green tea and blended</p>
                     </div>
                   </div>
                 </div>
