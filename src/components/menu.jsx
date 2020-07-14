@@ -18,7 +18,8 @@ class Menu extends React.Component {
           {/* ----------------------------- SUSHI MENU ----------------------------- */}
           <div className="sushi-menu">
             <div id="sushi" className="menu-subtitle">
-              <p>Sushi*</p>
+              <p className="caution">Sushi*</p>
+              <p className="hide">* Consuming raw or undercooked meats, poultry, seafood, shellfish or eggs may increase your risk of foodborne illness</p>
             </div>
             <div className="menu">
               <div className="sub-menu-title">
@@ -509,58 +510,60 @@ class Menu extends React.Component {
                 </div>
 
                 <div className="special-drinks-menu">
-                  <p>Specials and Seasonal Drinks</p>
-                  <p>4.95</p>
+                  <div className="special-drinks-title">
+                    <p>Specials and Seasonal Drinks</p>
+                    <p>4.95</p>
+                  </div>
                   <div className="menu-item">
-                    <div className="item-description">
+                    <div className="special-item">
                       <p>Tiger Bubble Tea</p>
                       <p>Brown sugar milk tea with brown sugar bubbles</p>
                     </div>
                   </div>
                   <div className="menu-item">
-                    <div className="item-description">
+                    <div className="special-item">
                       <p>First Love</p>
                       <p>Rose and white peach infused milk tea with bubbles</p>
                     </div>
                   </div>
                   <div className="menu-item">
-                    <div className="item-description">
+                    <div className="special-item">
                       <p>Matcha Brown Sugar Latte</p>
                       <p>Matcha milk tea with brown sugar bubbles</p>
                     </div>
                   </div>
                   <div className="menu-item">
-                    <div className="item-description">
+                    <div className="special-item">
                       <p>One in a Melon</p>
                       <p>Winter melon milk tea with brown sugar and bubbles</p>
                     </div>
                   </div>
                   <div className="menu-item">
-                    <div className="item-description">
+                    <div className="special-item">
                       <p>Pink Lady</p>
                       <p>Rose, white peach, and lemon infused green tea with rainbow jellies</p>
                     </div>
                   </div>
                   <div className="menu-item">
-                    <div className="item-description">
+                    <div className="special-item">
                       <p>Sweet Green</p>
                       <p>Lychee, honeydew, and honey green tea with lychee jellies</p>
                     </div>
                   </div>
                   <div className="menu-item">
-                    <div className="item-description">
+                    <div className="special-item">
                       <p>Sunrise</p>
                       <p>Kumquat, lemon, honey, and passion fruit green tea with lychee jellies</p>
                     </div>
                   </div>
                   <div className="menu-item">
-                    <div className="item-description">
+                    <div className="special-item">
                       <p>Hello Kitty</p>
                       <p>Strawberry and lychee green tea with rainbow jellies</p>
                     </div>
                   </div>
                   <div className="menu-item">
-                    <div className="item-description">
+                    <div className="special-item">
                       <p>Fresh Summer Slush</p>
                       <p>Choice of strawberry, blueberry, mango, or original lemonade mixed with green tea and blended</p>
                     </div>

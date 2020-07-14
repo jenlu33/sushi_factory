@@ -46,6 +46,28 @@
   width: 100%;
   margin: 15px 0;
 }
+.caution {
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.caution:hover + .hide {
+  display: block;
+  cursor: pointer;
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 10px;
+  width: 300px;
+  left: 53%;
+  color: rgb(196, 1, 1);
+  background-color: white;
+  font-size: 14px;
+  text-align: justify;
+}
 
 .menu-subtitle {
   /* border: 1px solid red; */
@@ -172,4 +194,26 @@ p > i {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.special-drinks-title {
+  margin: 5px 0 15px;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.special-drinks-title > p:first-child {
+  font-size: 22px;
+  font-weight: 700;
+  color: rgb(180, 0, 0);
+}
+
+.special-item {
+  /* border: 1px solid red; */
+  width: 100%;
+}
+
+.special-item > p:first-child {
+  font-weight: 700;
 }
