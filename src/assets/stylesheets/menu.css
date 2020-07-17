@@ -74,7 +74,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 600;
 }
 
@@ -154,6 +154,13 @@ p > i {
   /* background-color: rgb(248, 186, 186); */
 }
 
+.flavors-menu {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .tea-flavors {
   /* border: 1px solid red; */
   width: 90%;
@@ -167,6 +174,16 @@ p > i {
   margin: 5px;
   padding: 10px 12px;
   background-color: rgb(252, 242, 184);
+}
+
+.extra-menu {
+  width: 95%;
+}
+
+.sub-menu > h3, .sub-menu-title > h3, .extra-menu > h3, .flavors-menu > h3, .double-sub-menu > h3 {
+  margin: 5px 5px 10px;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 .double-sub-menu-container {

@@ -385,6 +385,49 @@ class Menu extends React.Component {
                 </div>
               </div>
 
+            <div className="sub-menu-title">
+              <h3>Sides</h3>
+            </div>
+            <div className="sub-menu">
+                <div className="menu-item">
+                  <div className="item-description">
+                    <p>Crunchy Onion</p>
+                  </div>
+                  <p>1.00</p>
+                </div>
+                <div className="menu-item">
+                  <div className="item-description">
+                    <p>Miso Soup</p>
+                  </div>
+                  <p>1.99</p>
+                </div>
+                <div className="menu-item">
+                  <div className="item-description">
+                    <p>Sushi Rice</p>
+                  </div>
+                  <p>2.99</p>
+                </div>
+                <div className="menu-item">
+                  <div className="item-description">
+                    <p>Edamame</p>
+                    <p>Japanese Soybeans</p>
+                  </div>
+                  <p>3.95</p>
+                </div>
+                <div className="menu-item">
+                  <div className="item-description">
+                    <p>Nigiri/Sashimi</p>
+                    <p>2 pieces per order</p>
+                  </div>
+                  <p>3.75</p>
+                </div>
+                <div className="menu-item">
+                  <div className="item-description">
+                    <p>Seaweed Salad</p>
+                  </div>
+                  <p>3.95</p>
+                </div>
+            </div>
             </div>
           </div>
 
@@ -411,59 +454,63 @@ class Menu extends React.Component {
                   <p>4.75</p>
                 </div>
 
-                <h3>Flavors</h3>
-                <div className="tea-flavors">
-                  <p>Original <i class="fas fa-star fa-xs"></i><i class="fas fa-mug-hot fa-sm"></i></p>
-                  <p>Thai <i class="fas fa-star fa-xs"></i></p>
-                  <p>Taro <i class="fas fa-star fa-xs"></i><i class="fas fa-mug-hot fa-sm"></i></p>
-                  <p>Matcha <i class="fas fa-mug-hot fa-sm"></i></p>
-                  <p>Caramel <i class="fas fa-mug-hot fa-sm"></i></p>
-                  <p>Hazelnut <i class="fas fa-mug-hot fa-sm"></i></p>
-                  <p>Red Bean <i class="fas fa-mug-hot fa-sm"></i></p>
-                  <p>Mango <i class="fas fa-star fa-xs"></i></p>
-                  <p>White Peach <i class="fas fa-star fa-xs"></i></p>
-                  <p>Strawberry</p>
-                  <p>Lychee <i class="fas fa-star fa-xs"></i></p>
-                  <p>Honeydew</p>
-                  <p>Blueberry</p>
-                  <p>Guava</p>
-                  <p>Rose <i class="fas fa-star fa-xs"></i><i class="fas fa-mug-hot fa-sm"></i></p>
-                  <p>Lavender <i class="fas fa-mug-hot fa-sm"></i></p>
-                  <p>Peach</p>
-                  <p>Passion Fruit</p>
-                  <p>Winter Melon</p>
-                  <p>Honey <i class="fas fa-mug-hot fa-sm"></i></p>
-                  <p>Coffee <i class="fas fa-mug-hot fa-sm"></i></p>
-                  <p>Coconut <i class="fas fa-mug-hot fa-sm"></i></p>
-                  <p>Almond <i class="fas fa-mug-hot fa-sm"></i></p>
-                  <p>Chocolate <i class="fas fa-mug-hot fa-sm"></i></p>
+                <div className="flavors-menu">
+                  <h3>Flavors</h3>
+                  <div className="tea-flavors">
+                    <p>Original <i class="fas fa-star fa-xs"></i><i class="fas fa-mug-hot fa-sm"></i></p>
+                    <p>Thai <i class="fas fa-star fa-xs"></i></p>
+                    <p>Taro <i class="fas fa-star fa-xs"></i><i class="fas fa-mug-hot fa-sm"></i></p>
+                    <p>Matcha <i class="fas fa-mug-hot fa-sm"></i></p>
+                    <p>Caramel <i class="fas fa-mug-hot fa-sm"></i></p>
+                    <p>Hazelnut <i class="fas fa-mug-hot fa-sm"></i></p>
+                    <p>Red Bean <i class="fas fa-mug-hot fa-sm"></i></p>
+                    <p>Mango <i class="fas fa-star fa-xs"></i></p>
+                    <p>White Peach <i class="fas fa-star fa-xs"></i></p>
+                    <p>Strawberry</p>
+                    <p>Lychee <i class="fas fa-star fa-xs"></i></p>
+                    <p>Honeydew</p>
+                    <p>Blueberry</p>
+                    <p>Guava</p>
+                    <p>Rose <i class="fas fa-star fa-xs"></i><i class="fas fa-mug-hot fa-sm"></i></p>
+                    <p>Lavender <i class="fas fa-mug-hot fa-sm"></i></p>
+                    <p>Peach</p>
+                    <p>Passion Fruit</p>
+                    <p>Winter Melon</p>
+                    <p>Honey <i class="fas fa-mug-hot fa-sm"></i></p>
+                    <p>Coffee <i class="fas fa-mug-hot fa-sm"></i></p>
+                    <p>Coconut <i class="fas fa-mug-hot fa-sm"></i></p>
+                    <p>Almond <i class="fas fa-mug-hot fa-sm"></i></p>
+                    <p>Chocolate <i class="fas fa-mug-hot fa-sm"></i></p>
+                  </div>
                 </div>
                 <p>Sugar level: 100% - 75% - 50% - 25%</p>
                 <br/>
-                <h3>Extra</h3>
-                <div className="menu-item">
-                  <p>Extra Bubbles</p>
-                  <p>0.60</p>
-                </div>
-                <div className="menu-item">
-                  <p>Add Jelly</p>
-                  <p>0.60</p>
-                </div>
-                <div className="menu-item">
-                  <p>Make it a Smoothie</p>
-                  <p>0.50</p>
-                </div>
-                <div className="menu-item">
-                  <p>Make it Warm/Hot</p>
-                  <p>0.50</p>
-                </div>
-                <div className="menu-item">
-                  <p>Extra Flavor</p>
-                  <p>0.50</p>
-                </div>
-                <div className="menu-item">
-                  <p>Substitute Soy Milk</p>
-                  <p>1.00</p>
+                <div className="extra-menu">
+                  <h3>Extra</h3>
+                  <div className="menu-item">
+                    <p>Extra Bubbles</p>
+                    <p>0.60</p>
+                  </div>
+                  <div className="menu-item">
+                    <p>Add Jelly</p>
+                    <p>0.60</p>
+                  </div>
+                  <div className="menu-item">
+                    <p>Make it a Smoothie</p>
+                    <p>0.50</p>
+                  </div>
+                  <div className="menu-item">
+                    <p>Make it Warm/Hot</p>
+                    <p>0.50</p>
+                  </div>
+                  <div className="menu-item">
+                    <p>Extra Flavor</p>
+                    <p>0.50</p>
+                  </div>
+                  <div className="menu-item">
+                    <p>Substitute Soy Milk</p>
+                    <p>1.00</p>
+                  </div>
                 </div>
 
                 <div className="double-sub-menu-container">
@@ -492,21 +539,44 @@ class Menu extends React.Component {
                   </div>
                 </div>
 
-                <h3>Flavors</h3>
-                <div className="tea-flavors">
-                  <p>Mango <i class="fas fa-star fa-xs"></i></p>
-                  <p>Strawberry <i class="fas fa-star fa-xs"></i></p>
-                  <p>Lychee <i class="fas fa-star fa-xs"></i></p>
-                  <p>Peach</p>
-                  <p>Guava</p>
-                  <p>Lemon</p>
-                  <p>Rose</p>
-                  <p>Honey</p>
-                  <p>Lavender</p>
-                  <p>Passion Fruit</p>
-                  <p>Honeydew</p>
-                  <p>White Peach <i class="fas fa-star fa-xs"></i></p>
-                  <p>Blueberry</p>
+                <div className="flavors-menu">
+                  <h3>Flavors</h3>
+                  <div className="tea-flavors">
+                    <p>Mango <i class="fas fa-star fa-xs"></i></p>
+                    <p>Strawberry <i class="fas fa-star fa-xs"></i></p>
+                    <p>Lychee <i class="fas fa-star fa-xs"></i></p>
+                    <p>Peach</p>
+                    <p>Guava</p>
+                    <p>Lemon</p>
+                    <p>Rose</p>
+                    <p>Honey</p>
+                    <p>Lavender</p>
+                    <p>Passion Fruit</p>
+                    <p>Honeydew</p>
+                    <p>White Peach <i class="fas fa-star fa-xs"></i></p>
+                    <p>Blueberry</p>
+                  </div>
+                </div>
+
+                <div className="extra-menu">
+                  <h3>Extra</h3>
+                  <div className="menu-item">
+                    <p>Add Bubbles</p>
+                    <p>0.60</p>
+                  </div>
+                  <div className="menu-item">
+                    <p>Add Jelly</p>
+                    <p>0.60</p>
+                  </div>
+                  <div className="menu-item">
+                    <p>Extra Flavor</p>
+                    <p>0.50</p>
+                  </div>
+                  <div className="menu-item">
+                    <p>Make it a Slush</p>
+                    <p>0.50</p>
+                  </div>
+
                 </div>
 
                 <div className="special-drinks-menu">
