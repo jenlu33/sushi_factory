@@ -404,11 +404,11 @@ class Menu extends React.Component {
                 <h3>Bubble Milk Tea </h3>
                 <div className="menu-item">
                   <p>Medium</p>
-                  <p>menu item price</p>
+                  <p>3.75</p>
                 </div>
                 <div className="menu-item">
                   <p>Large</p>
-                  <p>menu item price</p>
+                  <p>4.75</p>
                 </div>
 
                 <h3>Flavors</h3>
@@ -443,27 +443,27 @@ class Menu extends React.Component {
                 <h3>Extra</h3>
                 <div className="menu-item">
                   <p>Extra Bubbles</p>
-                  <p>menu item price</p>
+                  <p>0.60</p>
                 </div>
                 <div className="menu-item">
                   <p>Add Jelly</p>
-                  <p>menu item price</p>
+                  <p>0.60</p>
                 </div>
                 <div className="menu-item">
                   <p>Make it a Smoothie</p>
-                  <p>menu item price</p>
+                  <p>0.50</p>
                 </div>
                 <div className="menu-item">
                   <p>Make it Warm/Hot</p>
-                  <p>menu item price</p>
+                  <p>0.50</p>
                 </div>
                 <div className="menu-item">
                   <p>Extra Flavor</p>
-                  <p>menu item price</p>
+                  <p>0.50</p>
                 </div>
                 <div className="menu-item">
                   <p>Substitute Soy Milk</p>
-                  <p>menu item price</p>
+                  <p>1.00</p>
                 </div>
 
                 <div className="double-sub-menu-container">
@@ -471,11 +471,11 @@ class Menu extends React.Component {
                     <h3>Shaken Iced Tea</h3>
                     <div className="menu-item">
                       <p>Medium</p>
-                      <p>000</p>
+                      <p>2.95</p>
                     </div>
                     <div className="menu-item">
                       <p>Large</p>
-                      <p>000</p>
+                      <p>3.95</p>
                     </div>
                     <p><i class="fas fa-mug-hot fa-sm"></i> All iced teas also available hot </p>
                   </div>
@@ -483,11 +483,11 @@ class Menu extends React.Component {
                     <h3>Iced Dodo Drink</h3>
                     <div className="menu-item">
                       <p>Medium</p>
-                      <p>000</p>
+                      <p>3.15</p>
                     </div>
                     <div className="menu-item">
                       <p>Large</p>
-                      <p>000</p>
+                      <p>4.15</p>
                     </div>
                   </div>
                 </div>
