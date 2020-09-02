@@ -1,5 +1,4 @@
 import React from 'react';
-import '../assets/stylesheets/menu.css';
 
 class Menu extends React.Component {
   render() {
@@ -27,35 +26,7 @@ class Menu extends React.Component {
               </div>
 
               <div className="sub-menu">
-                <div className="menu-item">
-                  <div className="item-description">
-                    <p>Sweet Eel Box</p>
-                    <p>Eel topped with eel sauce over rice, side of edamame and seaweed salad</p>
-                  </div>
-                  <p>13.99</p>
-                </div>
-                <div className="menu-item">
-                  <div className="item-description">
-                    <p>White Tuna Combo</p>
-                    <p>5 pieces: white tuna roll (White Tuna, Avocado, Cream Cheese, Cucumber, Fish Roe, Eel Sauce)</p>
-                    <p>4 pieces white tuna nigiri</p>
-                  </div>
-                  <p>13.99</p>
-                </div>
-                <div className="menu-item">
-                  <div className="item-description">
-                    <p>Roll Combo</p>
-                    <p>6 pieces each of California Roll, Cucumber Roll, and Salmon Roll</p>
-                  </div>
-                  <p>12.99</p>
-                </div>
-                <div className="menu-item">
-                  <div className="item-description">
-                    <p>Veggie Roll Combo</p>
-                    <p>6 pieces Avocado Roll, Cucumber Roll, and Kampyo Roll</p>
-                  </div>
-                  <p>11.25</p>
-                </div>
+  
                 <div className="menu-item">
                   <div className="item-description">
                     <p>All Cooked Sushi</p>
@@ -438,8 +409,8 @@ class Menu extends React.Component {
             </div>
 
             <div className="tea-guide">
-              <p><i class="fas fa-star fa-xs"></i>Favorites</p>
-              <p><i class="fas fa-mug-hot fa-sm"></i>Available Hot</p>
+              <p><i className="fas fa-star fa-xs"></i>Favorites</p>
+              <p><i className="fas fa-mug-hot fa-sm"></i>Available Hot</p>
             </div>
 
             <div className="menu">
@@ -457,30 +428,30 @@ class Menu extends React.Component {
                 <div className="flavors-menu">
                   <h3>Flavors</h3>
                   <div className="tea-flavors">
-                    <p>Original <i class="fas fa-star fa-xs"></i><i class="fas fa-mug-hot fa-sm"></i></p>
-                    <p>Thai <i class="fas fa-star fa-xs"></i></p>
-                    <p>Taro <i class="fas fa-star fa-xs"></i><i class="fas fa-mug-hot fa-sm"></i></p>
-                    <p>Matcha <i class="fas fa-mug-hot fa-sm"></i></p>
-                    <p>Caramel <i class="fas fa-mug-hot fa-sm"></i></p>
-                    <p>Hazelnut <i class="fas fa-mug-hot fa-sm"></i></p>
-                    <p>Red Bean <i class="fas fa-mug-hot fa-sm"></i></p>
-                    <p>Mango <i class="fas fa-star fa-xs"></i></p>
-                    <p>White Peach <i class="fas fa-star fa-xs"></i></p>
+                    <p>Original <i className="fas fa-star fa-xs"></i><i className="fas fa-mug-hot fa-sm"></i></p>
+                    <p>Thai <i className="fas fa-star fa-xs"></i></p>
+                    <p>Taro <i className="fas fa-star fa-xs"></i><i className="fas fa-mug-hot fa-sm"></i></p>
+                    <p>Matcha <i className="fas fa-mug-hot fa-sm"></i></p>
+                    <p>Caramel <i className="fas fa-mug-hot fa-sm"></i></p>
+                    <p>Hazelnut <i className="fas fa-mug-hot fa-sm"></i></p>
+                    <p>Red Bean <i className="fas fa-mug-hot fa-sm"></i></p>
+                    <p>Mango <i className="fas fa-star fa-xs"></i></p>
+                    <p>White Peach <i className="fas fa-star fa-xs"></i></p>
                     <p>Strawberry</p>
-                    <p>Lychee <i class="fas fa-star fa-xs"></i></p>
+                    <p>Lychee <i className="fas fa-star fa-xs"></i></p>
                     <p>Honeydew</p>
                     <p>Blueberry</p>
                     <p>Guava</p>
-                    <p>Rose <i class="fas fa-star fa-xs"></i><i class="fas fa-mug-hot fa-sm"></i></p>
-                    <p>Lavender <i class="fas fa-mug-hot fa-sm"></i></p>
+                    <p>Rose <i className="fas fa-star fa-xs"></i><i className="fas fa-mug-hot fa-sm"></i></p>
+                    <p>Lavender <i className="fas fa-mug-hot fa-sm"></i></p>
                     <p>Peach</p>
                     <p>Passion Fruit</p>
                     <p>Winter Melon</p>
-                    <p>Honey <i class="fas fa-mug-hot fa-sm"></i></p>
-                    <p>Coffee <i class="fas fa-mug-hot fa-sm"></i></p>
-                    <p>Coconut <i class="fas fa-mug-hot fa-sm"></i></p>
-                    <p>Almond <i class="fas fa-mug-hot fa-sm"></i></p>
-                    <p>Chocolate <i class="fas fa-mug-hot fa-sm"></i></p>
+                    <p>Honey <i className="fas fa-mug-hot fa-sm"></i></p>
+                    <p>Coffee <i className="fas fa-mug-hot fa-sm"></i></p>
+                    <p>Coconut <i className="fas fa-mug-hot fa-sm"></i></p>
+                    <p>Almond <i className="fas fa-mug-hot fa-sm"></i></p>
+                    <p>Chocolate <i className="fas fa-mug-hot fa-sm"></i></p>
                   </div>
                 </div>
                 <p>Sugar level: 100% - 75% - 50% - 25%</p>
@@ -524,7 +495,7 @@ class Menu extends React.Component {
                       <p>Large</p>
                       <p>3.95</p>
                     </div>
-                    <p><i class="fas fa-mug-hot fa-sm"></i> All iced teas also available hot </p>
+                    <p><i className="fas fa-mug-hot fa-sm"></i> All iced teas also available hot </p>
                   </div>
                   <div className="double-sub-menu">
                     <h3>Iced Dodo Drink</h3>
@@ -542,9 +513,9 @@ class Menu extends React.Component {
                 <div className="flavors-menu">
                   <h3>Flavors</h3>
                   <div className="tea-flavors">
-                    <p>Mango <i class="fas fa-star fa-xs"></i></p>
-                    <p>Strawberry <i class="fas fa-star fa-xs"></i></p>
-                    <p>Lychee <i class="fas fa-star fa-xs"></i></p>
+                    <p>Mango <i className="fas fa-star fa-xs"></i></p>
+                    <p>Strawberry <i className="fas fa-star fa-xs"></i></p>
+                    <p>Lychee <i className="fas fa-star fa-xs"></i></p>
                     <p>Peach</p>
                     <p>Guava</p>
                     <p>Lemon</p>
@@ -553,7 +524,7 @@ class Menu extends React.Component {
                     <p>Lavender</p>
                     <p>Passion Fruit</p>
                     <p>Honeydew</p>
-                    <p>White Peach <i class="fas fa-star fa-xs"></i></p>
+                    <p>White Peach <i className="fas fa-star fa-xs"></i></p>
                     <p>Blueberry</p>
                   </div>
                 </div>
