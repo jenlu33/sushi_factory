@@ -24,14 +24,6 @@ class Menu extends React.Component {
 
           {/* ----------------------------- TEA MENU ----------------------------- */}
           <div className="tea-menu">
-            <div id="tea" className="menu-subtitle">
-              <p>Tea</p>
-            </div>
-
-            <div className="tea-guide">
-              <p><i className="fas fa-star fa-xs"></i>Favorites</p>
-              <p><i className="fas fa-mug-hot fa-sm"></i>Available Hot</p>
-            </div>
 
             <div className="menu">
               <div className="sub-menu tea">
@@ -45,35 +37,6 @@ class Menu extends React.Component {
                   <p>4.75</p>
                 </div>
 
-                <div className="flavors-menu">
-                  <h3>Flavors</h3>
-                  <div className="tea-flavors">
-                    <p>Original <i className="fas fa-star fa-xs"></i><i className="fas fa-mug-hot fa-sm"></i></p>
-                    <p>Thai <i className="fas fa-star fa-xs"></i></p>
-                    <p>Taro <i className="fas fa-star fa-xs"></i><i className="fas fa-mug-hot fa-sm"></i></p>
-                    <p>Matcha <i className="fas fa-mug-hot fa-sm"></i></p>
-                    <p>Caramel <i className="fas fa-mug-hot fa-sm"></i></p>
-                    <p>Hazelnut <i className="fas fa-mug-hot fa-sm"></i></p>
-                    <p>Red Bean <i className="fas fa-mug-hot fa-sm"></i></p>
-                    <p>Mango <i className="fas fa-star fa-xs"></i></p>
-                    <p>White Peach <i className="fas fa-star fa-xs"></i></p>
-                    <p>Strawberry</p>
-                    <p>Lychee <i className="fas fa-star fa-xs"></i></p>
-                    <p>Honeydew</p>
-                    <p>Blueberry</p>
-                    <p>Guava</p>
-                    <p>Rose <i className="fas fa-star fa-xs"></i><i className="fas fa-mug-hot fa-sm"></i></p>
-                    <p>Lavender <i className="fas fa-mug-hot fa-sm"></i></p>
-                    <p>Peach</p>
-                    <p>Passion Fruit</p>
-                    <p>Winter Melon</p>
-                    <p>Honey <i className="fas fa-mug-hot fa-sm"></i></p>
-                    <p>Coffee <i className="fas fa-mug-hot fa-sm"></i></p>
-                    <p>Coconut <i className="fas fa-mug-hot fa-sm"></i></p>
-                    <p>Almond <i className="fas fa-mug-hot fa-sm"></i></p>
-                    <p>Chocolate <i className="fas fa-mug-hot fa-sm"></i></p>
-                  </div>
-                </div>
                 <p>Sugar level: 100% - 75% - 50% - 25%</p>
                 <br/>
                 <div className="extra-menu">

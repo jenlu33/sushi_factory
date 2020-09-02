@@ -10,8 +10,6 @@ function menuSection(props) {
       {menuType.map((item, i) =>  
         <SushiMenuItem key={`${menuType} ${i}`} item={item} />
       )}
-
-
     </div>
   )
 };
