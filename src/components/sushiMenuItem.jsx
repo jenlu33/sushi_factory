@@ -10,7 +10,7 @@ function SushiMenuItem(props) {
         <p>{description}</p>
         <p>{subDescription}</p>
       </div>
-      <p>{price}</p>
+      <p>{price.toFixed(2)}</p>
     </div>
   )
 };
