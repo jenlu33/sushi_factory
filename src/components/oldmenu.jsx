@@ -93,24 +93,7 @@ class Menu extends React.Component {
                   </div>
                 </div>
 
-                <div className="flavors-menu">
-                  <h3>Flavors</h3>
-                  <div className="tea-flavors">
-                    <p>Mango <i className="fas fa-star fa-xs"></i></p>
-                    <p>Strawberry <i className="fas fa-star fa-xs"></i></p>
-                    <p>Lychee <i className="fas fa-star fa-xs"></i></p>
-                    <p>Peach</p>
-                    <p>Guava</p>
-                    <p>Lemon</p>
-                    <p>Rose</p>
-                    <p>Honey</p>
-                    <p>Lavender</p>
-                    <p>Passion Fruit</p>
-                    <p>Honeydew</p>
-                    <p>White Peach <i className="fas fa-star fa-xs"></i></p>
-                    <p>Blueberry</p>
-                  </div>
-                </div>
+              
 
                 <div className="extra-menu">
                   <h3>Extra</h3>
@@ -133,66 +116,7 @@ class Menu extends React.Component {
 
                 </div>
 
-                <div className="special-drinks-menu">
-                  <div className="special-drinks-title">
-                    <p>Specials and Seasonal Drinks</p>
-                    <p>4.95</p>
-                  </div>
-                  <div className="menu-item">
-                    <div className="special-item">
-                      <p>Tiger Bubble Tea</p>
-                      <p>Brown sugar milk tea with brown sugar bubbles</p>
-                    </div>
-                  </div>
-                  <div className="menu-item">
-                    <div className="special-item">
-                      <p>First Love</p>
-                      <p>Rose and white peach infused milk tea with bubbles</p>
-                    </div>
-                  </div>
-                  <div className="menu-item">
-                    <div className="special-item">
-                      <p>Matcha Brown Sugar Latte</p>
-                      <p>Matcha milk tea with brown sugar bubbles</p>
-                    </div>
-                  </div>
-                  <div className="menu-item">
-                    <div className="special-item">
-                      <p>One in a Melon</p>
-                      <p>Winter melon milk tea with brown sugar and bubbles</p>
-                    </div>
-                  </div>
-                  <div className="menu-item">
-                    <div className="special-item">
-                      <p>Pink Lady</p>
-                      <p>Rose, white peach, and lemon infused green tea with rainbow jellies</p>
-                    </div>
-                  </div>
-                  <div className="menu-item">
-                    <div className="special-item">
-                      <p>Sweet Green</p>
-                      <p>Lychee, honeydew, and honey green tea with lychee jellies</p>
-                    </div>
-                  </div>
-                  <div className="menu-item">
-                    <div className="special-item">
-                      <p>Sunrise</p>
-                      <p>Kumquat, lemon, honey, and passion fruit green tea with lychee jellies</p>
-                    </div>
-                  </div>
-                  <div className="menu-item">
-                    <div className="special-item">
-                      <p>Hello Kitty</p>
-                      <p>Strawberry and lychee green tea with rainbow jellies</p>
-                    </div>
-                  </div>
-                  <div className="menu-item">
-                    <div className="special-item">
-                      <p>Fresh Summer Slush</p>
-                      <p>Choice of strawberry, blueberry, mango, or original lemonade mixed with green tea and blended</p>
-                    </div>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>
