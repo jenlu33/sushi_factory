@@ -93,29 +93,6 @@ class Menu extends React.Component {
                   </div>
                 </div>
 
-              
-
-                <div className="extra-menu">
-                  <h3>Extra</h3>
-                  <div className="menu-item">
-                    <p>Add Bubbles</p>
-                    <p>0.60</p>
-                  </div>
-                  <div className="menu-item">
-                    <p>Add Jelly</p>
-                    <p>0.60</p>
-                  </div>
-                  <div className="menu-item">
-                    <p>Extra Flavor</p>
-                    <p>0.50</p>
-                  </div>
-                  <div className="menu-item">
-                    <p>Make it a Slush</p>
-                    <p>0.50</p>
-                  </div>
-
-                </div>
-
                 
               </div>
             </div>

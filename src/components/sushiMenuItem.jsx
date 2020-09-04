@@ -4,15 +4,17 @@ function SushiMenuItem(props) {
   const {name, description, subDescription, price} = props.item;
 
   return (
-    <div className="menu-item">
-      <div className="item-description">
+    <div className="sushi-menu-item">
+      <div className="item-top">
         <p>{name}</p>
+        <p>{price.toFixed(2)}</p>
+      </div>
+      <div className="item-bottom">
         <p>{description}</p>
         <p>{subDescription}</p>
       </div>
-      <p>{price.toFixed(2)}</p>
     </div>
-  )
+  );
 };
 
 export default SushiMenuItem;

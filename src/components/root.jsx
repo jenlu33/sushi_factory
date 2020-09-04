@@ -8,11 +8,11 @@ import Menu from './menu';
 const Root = () => (
   <HashRouter>
     <div>
-        <NavBar />
+        {/* <NavBar /> */}
 
       <Switch>
-        <Route path="/menu" component={Menu} />
-        <Route path="/" component={Main} />
+        {/* <Route path="/menu" component={Menu} /> */}
+        <Route path="/" component={Menu} />
       </Switch>
     </div>
   </HashRouter>

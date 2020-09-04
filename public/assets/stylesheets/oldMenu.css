@@ -1,0 +1,237 @@
+/* ------ MENU GENERAL & SUSHI ----- */
+
+.main-menu-div {
+  /* border: 1px solid red; */
+  margin-bottom: 50px;
+  width: 100vw;
+  min-width: 700px;
+  font-family: 'Jost', sans-serif;;
+}
+
+.menu-container {
+  border: 1px solid red;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.menu-title-container {
+  /* border: 1px solid red; */
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.menu-nav {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.menu-nav > a {
+  border: 1px solid white;
+  border-radius: 3px;
+  margin: 5px 10px;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.sushi-menu {
+  /* border: 1px solid red; */
+  width: 100%;
+  margin: 15px 0;
+}
+.caution {
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.caution:hover + .hide {
+  display: block;
+  cursor: pointer;
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 10px;
+  width: 300px;
+  left: 53%;
+  color: rgb(196, 1, 1);
+  background-color: white;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.menu-subtitle {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.menu {
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.sub-menu {
+  border: 1px solid gray;
+  border-radius: 3px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.menu-item {
+  /* border: 1px solid red; */
+  margin: 2px 0;
+  padding: 5px 10px;
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.item-description {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  flex: .8;
+}
+
+.item-description > p:first-child {
+  font-weight: 600;
+}
+
+.menu-item:nth-child(even) {
+  border-radius: 3px;
+  background-color: rgba(148, 8, 3, 0.1);
+}
+
+
+/* ----- TEA MENU ------ */
+
+.tea-menu {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tea {
+  border: none;
+}
+
+p > i {
+  margin: 0 3px;
+}
+
+.tea-guide {
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: 5px 0;
+  padding: 10px 5px;
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  /* background-color: rgb(248, 186, 186); */
+}
+
+.flavors-menu {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tea-flavors {
+  /* border: 1px solid red; */
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea-flavors-item {
+  border-radius: 3px;
+  display: flex;
+  margin: 5px;
+  padding: 10px 12px;
+  background-color: rgb(252, 242, 184);
+}
+
+.extra-menu {
+  width: 95%;
+}
+
+.sub-menu > h3, .sub-menu-title > h3, .extra-menu > h3, .flavors-menu > h3, .double-sub-menu > h3 {
+  margin: 5px 5px 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.double-sub-menu-container {
+  /* border: 1px solid red; */
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.double-sub-menu {
+  /* border: 1px solid red; */
+  margin: 10px 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.special-drinks-menu {
+  border: 2px solid rgb(134, 44, 44);
+  margin: 20px 0;
+  padding: 10px 0;
+  border-radius: 3px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.special-drinks-title {
+  margin: 5px 0 15px;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.special-drinks-title > p:first-child {
+  font-size: 22px;
+  font-weight: 700;
+  color: rgb(180, 0, 0);
+}
+
+.special-item {
+  /* border: 1px solid red; */
+  width: 100%;
+}
+
+.special-item > p:first-child {
+  font-weight: 700;
+}

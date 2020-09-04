@@ -17,10 +17,13 @@ const drinkExtras = [
     price: 0.50
   },
   {
-    name: "Make it hot",
+    name: "Make it Hot",
     price: 0.50
   },
-  
+  {
+    name: "Substitute Soy Milk"
+  }
+
 ];
 
 export default drinkExtras;

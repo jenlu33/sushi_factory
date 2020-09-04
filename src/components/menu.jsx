@@ -12,15 +12,18 @@ function Menu() {
 
   return(
     <div>
-      <h1>Sushi</h1>
-      {/* <MenuSection menuType={sushiPlateMenu} title="Sushi Plate Menu"/>
-      <MenuSection menuType={sushiRollMenu} title="Sushi Roll Menu"/>
-      <MenuSection menuType={sushiSidesMenu} title="Sushi Roll Menu"/> */}
+      <div className="sushi-menu-container">
+        <h1>Sushi</h1>
+        <MenuSection menuType={sushiPlateMenu} title="Sushi Plates" customClass="plates"/>
+        <MenuSection menuType={sushiRollMenu} title="Sushi Rolls" customClass="rolls"/>
+        <MenuSection menuType={sushiSidesMenu} title="Sides" customClass="sides"/>
+      </div>
+
       <h1>Bubble Tea</h1>
      
-      <FlavorsMenu flavors={milkTea}/>
+      {/* <FlavorsMenu flavors={milkTea}/>
       <h1>Iced Tea / Dodo</h1>
-      <FlavorsMenu flavors={icedTeaDodo}/>
+      <FlavorsMenu flavors={icedTeaDodo}/> */}
 
       {/* Special Drinks Menu */}
     </div>
