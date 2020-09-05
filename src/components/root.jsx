@@ -8,7 +8,7 @@ import Menu from './menu';
 const Root = () => (
   <HashRouter>
     <div>
-        {/* <NavBar /> */}
+        <NavBar />
 
       <Switch>
         {/* <Route path="/menu" component={Menu} /> */}

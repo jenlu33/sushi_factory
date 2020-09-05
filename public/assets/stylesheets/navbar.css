@@ -1,37 +1,60 @@
 .navbar-main {
   /* border: 1px solid red; */
-  padding: 5px 0 10px;
-  min-width: 700px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   background-color: black;
-  color: white;
 }
 
-.head{
-  margin: 5px;
+.navbar-content {
+  /* border: 1px solid red; */
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 10px;
+  width: 95%;
 }
 
-.sushi-btn {
-  /* border: 1px solid blue; */
+.head {
+  /* border: 1px solid red; */
   color: white;
+  margin: 5px 15px;
+}
+
+.navbar-title {
+  /* border: 1px solid red; */
+  color: white;
+  cursor: pointer;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2.5em;
   text-decoration: none;
-  font-size: 40px;
+}
+
+.navbar-sub-title {
+  text-align: left;
+  margin: -5px 0;
 }
 
 .nav-btns {
-  margin: 5px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 0 0;
+  width: 50%;
 }
 
 .nav-btn {
-  border: 1px solid white;
-  margin: 0 5px;
-  padding: 5px 10px;
-  border-radius: 3px;
-  color: white;
+  color: #f5efef;
+  cursor: pointer;
   text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .navbar-content {
+    flex-direction: column;
+  }
+
+  .navbar-sub-title {
+    text-align: center;
+  }
 }

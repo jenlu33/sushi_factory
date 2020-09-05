@@ -1,3 +1,8 @@
+hr {
+  border-top: 3px dashed black;
+  width: 70%;
+}
+
 .menu-container {
   /* border: 1px solid red; */
   background: #f5efef;
@@ -17,6 +22,7 @@
 }
 
 .menu-title {
+  font-family: 'Permanent Marker', cursive;
   text-align: center;
   margin: 10px;
   transform:skew(-20deg);
@@ -46,12 +52,13 @@
   flex: 1.5;
   margin-right: 30px;
 }
+.rolls-section {
+  /* border: 1px solid red; */
+  margin: 0 auto;
+}
 .sides-section{
   flex: 1.5;
   margin-left: 30px;
-}
-.rolls-section {
-  margin: 0 auto;
 }
 
 .section-title-container {
@@ -61,11 +68,15 @@
 
 .menu-section-title {
   /* color: #f5efef; */
+  font-family: 'Permanent Marker', cursive;
   padding: 5px 15px;
   transform: skew(20deg);
 }
 .sides-title {
   text-align: right;
+}
+.tea-title {
+  text-align: center;
 }
 
 .menu-items {
@@ -128,6 +139,27 @@
   display: flex;
   justify-content: space-between;
   font-weight: bold;
+}
+
+/* .tea-header-container {
+  border: 1px solid red;
+  display: flex;
+} */
+
+.tea-section-container {
+  border: 5px solid black;
+  border-style: dashed solid;
+  margin: 10px 0;
+  padding: 20px;
+  width: 100%;
+}
+
+.tea-price {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  margin: 0px auto;
+  width: 60%;
 }
 
 

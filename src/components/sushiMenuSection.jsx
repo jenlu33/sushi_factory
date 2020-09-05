@@ -11,8 +11,8 @@ function menuSection(props) {
           {/* <img
             src="../../assets/images/plates01.jpg"
             alt=""
-          />
-          */}
+          /> */}
+         
         </div>
       )}
       <div className={`menu-section ${customClass}-section`}>

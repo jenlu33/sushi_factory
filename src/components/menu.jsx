@@ -1,8 +1,8 @@
 import React from 'react';
 import SushiMenuSection from './sushiMenuSection';
 import FlavorsMenu from './flavors';
-
-import TeaHeader from './TeaHeader'
+// import TeaPricing from './teaPricing';
+import TeaSection from './teaSection'
 
 import sushiPlateMenu from '../sushiPlateMenu';
 import sushiRollMenu from '../sushiRollMenu';
@@ -25,17 +25,13 @@ function Menu() {
 
       <div className="menu-container">
         <div className="menu-title-container">
-          <h1 className="menu-title">Bubble Tea</h1>
+          <h1 className="menu-title">Tea</h1>
         </div>
-        <TeaHeader menuType={milkTea.pricing}/>
-        <TeaHeader menuType={icedTeaDodo.teaPrice}/>
-        <TeaHeader menuType={icedTeaDodo.dodoPrice}/>
-        {/* <FlavorsMenu flavors={milkTea.flavors} /> */}
+        <TeaSection menuType={milkTea} title="Bubble Tea"/>
+        <TeaSection menuType={icedTeaDodo} title="Shaken Iced Tea"/>
+        <TeaSection menuType={icedTeaDodo} title="Dodo Yogurt"/>
       </div>
-     
-      {/* 
-      <h1>Iced Tea / Dodo</h1>
-      <FlavorsMenu flavors={icedTeaDodo}/> */}
+    
 
       {/* Special Drinks Menu */}
     </div>
