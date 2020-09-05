@@ -1,4 +1,4 @@
-.sushi-menu-container {
+.menu-container {
   /* border: 1px solid red; */
   background: #f5efef;
   display: flex;
@@ -9,10 +9,24 @@
   width: 80%;
 }
 
+.menu-title-container {
+  background-color: #810000;
+  color: #f5efef;
+  transform:skew(20deg);
+  width: 50%;
+}
+
+.menu-title {
+  text-align: center;
+  margin: 10px;
+  transform:skew(-20deg);
+}
+
 .menu-section-container {
   /* background: #e97171; */
   /* border-radius: 5%; */
   border: 5px solid black;
+  border-style: dashed solid;
   display: flex;
   margin: 10px 0;
   width: 100%;
@@ -40,10 +54,15 @@
   margin: 0 auto;
 }
 
+.section-title-container {
+  background-color: #ffcb8e;
+  transform: skew(-20deg);
+}
+
 .menu-section-title {
-  background-color: #810000;
-  color: #f5efef;
-  padding: 5px 7px;
+  /* color: #f5efef; */
+  padding: 5px 15px;
+  transform: skew(20deg);
 }
 .sides-title {
   text-align: right;
@@ -54,7 +73,8 @@
   /* display: flex; */
 }
 .rolls-items {
-  columns: 2;
+  /* border: 1px solid red; */
+  columns: 3;
 }
 
 .menu-imgs {
@@ -64,9 +84,9 @@
   flex-direction: column;
   justify-content: center; */
   /* width: 40%; */
-  background: #810000;
-  /* background-color: #ffffff;
-  background-image: url("https://www.transparenttextures.com/patterns/arches.png") */
+  /* background: #e97171; */
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/arches.png")
 }
 .menu-imgs > img {
   /* border: 1px solid red; */
@@ -80,16 +100,27 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding: 0 15px;
-  /* width: 50%; */
+  padding: 0 15px 5px;
+
+  -webkit-column-break-inside: avoid-column; 
+  page-break-inside: avoid-column;
+  break-inside: avoid-column;
 }
 
+.item-top {
+  /* border: 1px solid red; */
+  margin: 5px 0;
+}
 .item-top > p {
-  margin: 10px 0 0;
+  /* border: 1px solid red; */
+  margin: 0;
 }
 
+.item-bottom {
+  margin: 0 0 5px;
+}
 .item-bottom > p {
-  margin: 5px 0 0;
+  margin: 0;
   width: 90%;
 }
 
@@ -102,12 +133,19 @@
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
+  .rolls-items {
+    columns: 2;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
   .rolls-items {
     columns: 1;
   }
 
-  .menu-section-title {
+    .menu-section-title {
    text-align: center;
   }
 

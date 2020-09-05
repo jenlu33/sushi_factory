@@ -1,6 +1,8 @@
 import React from 'react';
-import MenuSection from './menuSection';
-import FlavorsMenu from './flavors'
+import SushiMenuSection from './sushiMenuSection';
+import FlavorsMenu from './flavors';
+
+import TeaHeader from './TeaHeader'
 
 import sushiPlateMenu from '../sushiPlateMenu';
 import sushiRollMenu from '../sushiRollMenu';
@@ -12,16 +14,26 @@ function Menu() {
 
   return(
     <div>
-      <div className="sushi-menu-container">
-        <h1>Sushi</h1>
-        <MenuSection menuType={sushiPlateMenu} title="Sushi Plates" customClass="plates"/>
-        <MenuSection menuType={sushiRollMenu} title="Sushi Rolls" customClass="rolls"/>
-        <MenuSection menuType={sushiSidesMenu} title="Sides" customClass="sides"/>
+      <div className="menu-container">
+        <div className="menu-title-container">
+          <h1 className="menu-title">Sushi</h1>
+        </div>
+        <SushiMenuSection menuType={sushiPlateMenu} title="Sushi Plates" customClass="plates"/>
+        <SushiMenuSection menuType={sushiRollMenu} title="Sushi Rolls" customClass="rolls"/>
+        <SushiMenuSection menuType={sushiSidesMenu} title="Sides" customClass="sides"/>
       </div>
 
-      <h1>Bubble Tea</h1>
+      <div className="menu-container">
+        <div className="menu-title-container">
+          <h1 className="menu-title">Bubble Tea</h1>
+        </div>
+        <TeaHeader menuType={milkTea.pricing}/>
+        <TeaHeader menuType={icedTeaDodo.teaPrice}/>
+        <TeaHeader menuType={icedTeaDodo.dodoPrice}/>
+        {/* <FlavorsMenu flavors={milkTea.flavors} /> */}
+      </div>
      
-      {/* <FlavorsMenu flavors={milkTea}/>
+      {/* 
       <h1>Iced Tea / Dodo</h1>
       <FlavorsMenu flavors={icedTeaDodo}/> */}
 
