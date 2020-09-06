@@ -4,17 +4,17 @@ import LocalCafeIcon from '@material-ui/icons/LocalCafe';
 
 function Flavors(props) {
   return (
-    <div>
+    <div className="flavors-container">
       <h1>Flavors</h1>
-      <div>
+      <div className="tea-keys">
         <p><StarIcon /> Popular</p>
         <p><LocalCafeIcon /> Available Hot</p>
       </div>
       <div className='tea-flavors'>
-        {props.flavors.map((flavor) => (
-          <div className='tea-flavors-item'>
-            <p>{flavor.favorite && <StarIcon />}</p>
-            <p>{flavor.hot && <LocalCafeIcon />}</p>
+        {props.flavors.map((flavor, i) => (
+          <div key={`flavor ${i}`} className='tea-flavors-item'>
+            {flavor.favorite && <StarIcon />}
+            {flavor.hot && <LocalCafeIcon />}
             <p>{flavor.flavor}</p>
           </div>
         ))}

@@ -1,5 +1,7 @@
 import React from 'react';
 import TeaPricing from './teaPricing';
+import FlavorsMenu from './flavors';
+import Flavors from './flavors';
 
 function TeaSection(props) {
   const { menuType, title } = props
@@ -14,10 +16,8 @@ function TeaSection(props) {
         <TeaPricing prices={menuType.teaPrice} title={title} />}
       {title === "Dodo Yogurt" && 
         <TeaPricing prices={menuType.dodoPrice} title={title} />}
-
-      <div>
-      </div>
- 
+        <FlavorsMenu flavors = {menuType.flavors}/>
+      
     </div>
   )
 };

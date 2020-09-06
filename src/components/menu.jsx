@@ -1,6 +1,5 @@
 import React from 'react';
 import SushiMenuSection from './sushiMenuSection';
-import FlavorsMenu from './flavors';
 // import TeaPricing from './teaPricing';
 import TeaSection from './teaSection'
 
@@ -18,9 +17,9 @@ function Menu() {
         <div className="menu-title-container">
           <h1 className="menu-title">Sushi</h1>
         </div>
-        <SushiMenuSection menuType={sushiPlateMenu} title="Sushi Plates" customClass="plates"/>
-        <SushiMenuSection menuType={sushiRollMenu} title="Sushi Rolls" customClass="rolls"/>
-        <SushiMenuSection menuType={sushiSidesMenu} title="Sides" customClass="sides"/>
+        {/* <SushiMenuSection menuType={sushiPlateMenu} title="Sushi Plates" customClass="plates"/> */}
+        {/* <SushiMenuSection menuType={sushiRollMenu} title="Sushi Rolls" customClass="rolls"/> */}
+        {/* <SushiMenuSection menuType={sushiSidesMenu} title="Sides" customClass="sides"/> */}
       </div>
 
       <div className="menu-container">

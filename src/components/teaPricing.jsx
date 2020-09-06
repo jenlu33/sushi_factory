@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function TeaSizing(props) {
   const { prices, title } = props;
   return(
@@ -10,7 +11,12 @@ function TeaSizing(props) {
           <h3>{price.price}</h3>
         </div>
       )}
-      <p>Sweetness Level</p>
+
+      {title === "Bubble Tea" && <p className="sweetness-level">Sweetness Level: 100% - 75% - 50% - 25%</p>}
+      {title === "Shaken Iced Tea" && <p className="sweetness-level"> Sweetness Level: 100% - 75% - 50% - 25%</p>}
+      {title === "Dodo Yogurt" && <p className="sweetness-level">Sweetness Level: 100% - 50%</p>}
+      
+
       <hr/>
     </div>
   )
