@@ -1,6 +1,10 @@
 hr {
-  border-top: 3px dashed black;
-  width: 70%;
+  border-top: 2px solid black;
+  width: 50%;
+}
+
+h1, h2 {
+  font-family: 'Permanent Marker', cursive;
 }
 
 .menu-container {
@@ -12,6 +16,7 @@ hr {
   padding: 20px 40px;
   margin: 10px auto;
   width: 80%;
+  max-width: 1090px;
 }
 
 .menu-title-container {
@@ -24,7 +29,6 @@ hr {
 }
 
 .menu-title {
-  font-family: 'Permanent Marker', cursive;
   text-align: center;
   text-shadow: 3px 3px black;
   margin: 10px;
@@ -41,9 +45,10 @@ hr {
   width: 100%;
   padding: 20px;
 }
-.plates-container, .sides-container {
+.plates-container, .sides-container, .tea-extras-container {
+  /* border: 1px solid red; */
   justify-content: space-between;
-  /* flex: 2 1; */
+  flex: 1.5;
 }
 
 .menu-section {
@@ -72,7 +77,6 @@ hr {
 
 .menu-section-title {
   /* color: #f5efef; */
-  font-family: 'Permanent Marker', cursive;
   /* text-shadow: 1px 1px 1px white; */
   padding: 5px 15px;
   transform: skew(20deg);
@@ -96,19 +100,21 @@ hr {
 .menu-imgs {
   /* border: 1px solid blue; */
   flex: 1;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
-  /* width: 40%; */
-  /* background: #e97171; */
-  background-color: #ffffff;
-  background-image: url("https://www.transparenttextures.com/patterns/arches.png")
+  display: flex;
+  justify-content: center;
+  /* background-color: #ffffff; */
+  /* background-image: url("https://www.transparenttextures.com/patterns/arches.png"); */
 }
 .menu-imgs > img {
   /* border: 1px solid red; */
-  object-fit: cover;
   margin: 10px 0;
+  object-fit: cover;
+  opacity: 0.6;
   width: 100%;
+}
+.menu-imgs > img:hover {
+  opacity: 1;
+  transition-duration: 0.3s;
 }
 
 .sushi-menu-item {
@@ -177,38 +183,64 @@ hr {
   /* border: 1px solid red; */
 }
 
+.flavors-title-container {
+  /* border: 1px solid red; */
+  margin: 35px auto;
+  /* height: 20px; */
+  width: 50%;
+}
+
+.flavors-title-background {
+  /* border: 1px solid red; */
+  background-color: #97be80;
+  height: 30px;
+  margin: 0 auto;
+  position: relative;
+  transform: skew(-20deg, -12deg);
+  width: 145px;
+}
+
+.flavors-title {
+  margin: 15px;
+  /* position: absolute; */
+  text-align: center;
+  transform: skew(20deg, 12deg);
+}
+
 .tea-keys {
-  border: 1px solid black;
+  border-bottom: 2px solid black;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin: 10px auto;
-  padding: 5px;
   width: 50%;
 }
 
 .tea-flavors {
-  border: 1px solid red;
-  columns: 6;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 900px;
   padding: 10px 0;
 }
 
 .tea-flavors-item {
   /* border: 1px solid black; */
-  background-color: #db8585;
-  /* background-color: #bfdcae; */
-  box-shadow: 2px 2px 3px gray;
+  background-color: #fcbe78;
+  box-shadow: 2px 2px 3px rgb(189, 189, 189);
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 0px 7px;
+  margin: 5px;
   padding: 5px;
   /* transform:skew(20deg); */
-  width: 80%;
 
-  -webkit-column-break-inside: avoid-column; 
+  /* -webkit-column-break-inside: avoid-column; 
   page-break-inside: avoid-column;
-  break-inside: avoid-column;
+  break-inside: avoid-column; */
 }
 
 .tea-flavors-item > p {
@@ -224,11 +256,6 @@ hr {
   .rolls-items {
     columns: 2;
   }
-
-  .tea-flavors {
-    columns: 3;
-  }
-
 }
 
 @media screen and (max-width: 600px) {
@@ -248,7 +275,7 @@ hr {
     display: none;
   }
 
-  .tea-flavors {
-    columns: 2;
+  .tea-keys {
+    flex-direction: column;
   }
 }

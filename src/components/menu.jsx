@@ -8,6 +8,7 @@ import sushiRollMenu from '../sushiRollMenu';
 import sushiSidesMenu from '../sushiSidesMenu';
 import milkTea from '../milkTea';
 import icedTeaDodo from '../icedTeaDodo';
+import teaExtras from '../drinkExtras';
 
 function Menu() {
 
@@ -17,9 +18,14 @@ function Menu() {
         <div className="menu-title-container">
           <h1 className="menu-title">Sushi</h1>
         </div>
-        {/* <SushiMenuSection menuType={sushiPlateMenu} title="Sushi Plates" customClass="plates"/> */}
-        {/* <SushiMenuSection menuType={sushiRollMenu} title="Sushi Rolls" customClass="rolls"/> */}
-        {/* <SushiMenuSection menuType={sushiSidesMenu} title="Sides" customClass="sides"/> */}
+        <SushiMenuSection 
+          menuType={sushiPlateMenu} title="Sushi Plates" customClass="plates"
+          imgURL={"plates04.jpg"}/>
+        <SushiMenuSection menuType={sushiRollMenu} title="Sushi Rolls" customClass="rolls"/>
+        <SushiMenuSection 
+          menuType={sushiSidesMenu} title="Sides" customClass="sides"
+          imgURL={"05.jpg"}
+          />
       </div>
 
       <div className="menu-container">
@@ -29,6 +35,9 @@ function Menu() {
         <TeaSection menuType={milkTea} title="Bubble Tea"/>
         <TeaSection menuType={icedTeaDodo} title="Shaken Iced Tea"/>
         <TeaSection menuType={icedTeaDodo} title="Dodo Yogurt"/>
+        <SushiMenuSection 
+          menuType={teaExtras} title="Extras" customClass="tea-extras"
+          imgURL={"plates01.jpg"}/>
       </div>
     
 

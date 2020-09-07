@@ -1,18 +1,15 @@
 import React from 'react';
 import SushiMenuItem from './sushiMenuItem';
+import MenuImages from './menuImages';
 
-function menuSection(props) {
+function sushiMenuSection(props) {
   const {menuType, title, customClass} = props;
   
   return (
     <div className={`menu-section-container ${customClass}-container`}>
       {title === "Sides" && (
         <div className="menu-imgs">
-          {/* <img
-            src="../../assets/images/plates01.jpg"
-            alt=""
-          /> */}
-         
+          <MenuImages imgURL={props.imgURL} />
         </div>
       )}
       <div className={`menu-section ${customClass}-section`}>
@@ -25,20 +22,11 @@ function menuSection(props) {
           ))}
         </div>
       </div>
-      {title === "Sushi Plates" && (
-        <div className="menu-imgs">
-          {/* <img
-            src="../../assets/images/plates01.jpg"
-            alt=""
-          />
-          <img
-            src="/assets/images/plates02.jpg"
-            alt=""
-          /> */}
-        </div>
+      {title === ("Sushi Plates" || "Extras") && (
+        <MenuImages imgURL={props.imgURL}/>
       )}
     </div>
   );
 };
 
-export default menuSection;
+export default sushiMenuSection;

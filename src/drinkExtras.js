@@ -21,8 +21,9 @@ const drinkExtras = [
     price: 0.50
   },
   {
-    name: "Substitute Soy Milk"
-  }
+    name: "Substitute Soy Milk",
+    price: 1.00
+  },
 
 ];
 

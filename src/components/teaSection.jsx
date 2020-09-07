@@ -16,7 +16,7 @@ function TeaSection(props) {
         <TeaPricing prices={menuType.teaPrice} title={title} />}
       {title === "Dodo Yogurt" && 
         <TeaPricing prices={menuType.dodoPrice} title={title} />}
-        <FlavorsMenu flavors = {menuType.flavors}/>
+        <FlavorsMenu flavors = {menuType.flavors} title={title}/>
       
     </div>
   )
