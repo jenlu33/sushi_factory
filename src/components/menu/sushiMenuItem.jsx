@@ -3,8 +3,11 @@ import React from 'react';
 function SushiMenuItem(props) {
   const {name, description, subDescription, price} = props.item;
 
+
+
   return (
     <div className="sushi-menu-item">
+      <span className="highlight"></span>
       <div className="item-top">
         <p>{name}</p>
         <p>{price.toFixed(2)}</p>

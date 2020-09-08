@@ -3,12 +3,12 @@ import SushiMenuSection from './sushiMenuSection';
 // import TeaPricing from './teaPricing';
 import TeaSection from './teaSection'
 
-import sushiPlateMenu from '../sushiPlateMenu';
-import sushiRollMenu from '../sushiRollMenu';
-import sushiSidesMenu from '../sushiSidesMenu';
-import milkTea from '../milkTea';
-import icedTeaDodo from '../icedTeaDodo';
-import teaExtras from '../drinkExtras';
+import sushiPlateMenu from '../../sushiPlateMenu';
+import sushiRollMenu from '../../sushiRollMenu';
+import sushiSidesMenu from '../../sushiSidesMenu';
+import milkTea from '../../milkTea';
+import icedTeaDodo from '../../icedTeaDodo';
+import teaExtras from '../../drinkExtras';
 
 function Menu() {
 
@@ -37,7 +37,7 @@ function Menu() {
         <TeaSection menuType={icedTeaDodo} title="Dodo Yogurt"/>
         <SushiMenuSection 
           menuType={teaExtras} title="Extras" customClass="tea-extras"
-          imgURL={"plates01.jpg"}/>
+          imgURL={"06.jpg"}/>
       </div>
     
 

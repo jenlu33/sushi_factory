@@ -16,7 +16,7 @@ h1, h2 {
   padding: 20px 40px;
   margin: 10px auto;
   width: 80%;
-  max-width: 1090px;
+  max-width: 1200px;
 }
 
 .menu-title-container {
@@ -48,13 +48,12 @@ h1, h2 {
 .plates-container, .sides-container, .tea-extras-container {
   /* border: 1px solid red; */
   justify-content: space-between;
-  flex: 1.5;
 }
 
 .menu-section {
   /* border: 1px solid red; */
 }
-.plates-section {
+.plates-section, .tea-extras-section {
   /* border: 1px solid red; */
   /* width: 50%; */
   flex: 1.5;
@@ -63,6 +62,7 @@ h1, h2 {
 .rolls-section {
   /* border: 1px solid red; */
   margin: 0 auto;
+  width: 100%;
 }
 .sides-section{
   flex: 1.5;
@@ -90,21 +90,24 @@ h1, h2 {
 
 .menu-items {
   /* border: 1px solid red; */
-  /* display: flex; */
+  padding-right: 20px;
+  /* width: 100%; */
 }
 .rolls-items {
   /* border: 1px solid red; */
-  columns: 3;
+  columns: 2;
 }
 
 .menu-imgs {
   /* border: 1px solid blue; */
   flex: 1;
+  /* width: 40%; */
   display: flex;
   justify-content: center;
   /* background-color: #ffffff; */
   /* background-image: url("https://www.transparenttextures.com/patterns/arches.png"); */
 }
+
 .menu-imgs > img {
   /* border: 1px solid red; */
   margin: 10px 0;
@@ -112,21 +115,42 @@ h1, h2 {
   opacity: 0.6;
   width: 100%;
 }
-.menu-imgs > img:hover {
-  opacity: 1;
-  transition-duration: 0.3s;
-}
+  .menu-imgs > img:hover {
+    opacity: 1;
+    transition-duration: 0.3s;
+  }
+  .sides-img, .tea-extra-img {
+    /* border: 1px solid blue; */
+    max-width: 320px;
+  }
 
 .sushi-menu-item {
   /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding: 0 15px 5px;
 
+  /* width: 100%; */
   -webkit-column-break-inside: avoid-column; 
   page-break-inside: avoid-column;
   break-inside: avoid-column;
+}
+
+.highlight{
+  /* border: 1px solid red; */
+  position: absolute;
+  width: 40%;
+  height: 55px;
+  opacity: 0;
+}
+
+.highlight:hover {
+  background-image: url("../images/orange-watercolor-brush-stroke-3-1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 95%;
+  opacity: 0.3;
+  transition-duration: 0.5s;
 }
 
 .item-top {
@@ -253,9 +277,9 @@ h1, h2 {
 
 
 @media screen and (max-width: 1024px) {
-  .rolls-items {
-    columns: 2;
-  }
+  /* .rolls-items {
+    columns: 1;
+  } */
 }
 
 @media screen and (max-width: 600px) {
@@ -277,5 +301,9 @@ h1, h2 {
 
   .tea-keys {
     flex-direction: column;
+  }
+
+  .highlight {
+    width: 75%;
   }
 }

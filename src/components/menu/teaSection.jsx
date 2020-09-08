@@ -1,7 +1,6 @@
 import React from 'react';
 import TeaPricing from './teaPricing';
 import FlavorsMenu from './flavors';
-import Flavors from './flavors';
 
 function TeaSection(props) {
   const { menuType, title } = props

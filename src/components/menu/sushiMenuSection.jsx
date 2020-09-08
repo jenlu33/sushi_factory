@@ -8,9 +8,7 @@ function sushiMenuSection(props) {
   return (
     <div className={`menu-section-container ${customClass}-container`}>
       {title === "Sides" && (
-        <div className="menu-imgs">
-          <MenuImages imgURL={props.imgURL} />
-        </div>
+        <MenuImages imgURL={props.imgURL} customClass="sides-img" />
       )}
       <div className={`menu-section ${customClass}-section`}>
         <div className="section-title-container">
@@ -22,8 +20,11 @@ function sushiMenuSection(props) {
           ))}
         </div>
       </div>
-      {title === ("Sushi Plates" || "Extras") && (
-        <MenuImages imgURL={props.imgURL}/>
+      {title === "Sushi Plates" && (
+        <MenuImages imgURL={props.imgURL} customClass="plates-img"/>
+      )}
+      {title === "Extras" && (
+        <MenuImages imgURL={props.imgURL} customClass="tea-extra-img"/>
       )}
     </div>
   );
