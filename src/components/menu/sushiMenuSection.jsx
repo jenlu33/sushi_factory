@@ -16,7 +16,7 @@ function sushiMenuSection(props) {
         </div>
         <div className={`menu-items ${customClass}-items`}>
           {menuType.map((item, i) => (
-            <SushiMenuItem key={`${menuType} ${i}`} item={item} />
+            <SushiMenuItem key={`${customClass} ${i}`} item={item} customClass={customClass} />
           ))}
         </div>
       </div>

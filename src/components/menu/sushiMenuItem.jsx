@@ -2,12 +2,11 @@ import React from 'react';
 
 function SushiMenuItem(props) {
   const {name, description, subDescription, price} = props.item;
-
-
+  const {customClass} = props;
 
   return (
-    <div className="sushi-menu-item">
-      <span className="highlight"></span>
+    <div className={`sushi-menu-item ${customClass}-item`}>
+      <span className={`highlight ${customClass}-highlight`}></span>
       <div className="item-top">
         <p>{name}</p>
         <p>{price.toFixed(2)}</p>
