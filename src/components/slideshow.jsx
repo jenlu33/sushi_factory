@@ -4,29 +4,44 @@ import { useState, useEffect } from "react";
 
 function SlideShow(props) {
   const imgs = props.imgs;
-  const [imgUrl, setImgUrl] = useState(imgs[0])
-  let [imgIdx, setImgIdx] = useState(0);
-  
+  const [idx, setIdx] = useState(0);
+
+  // const [imgUrl, setImgUrl] = useState(imgs[0])
+  // let [imgIdx, setImgIdx] = useState(0);
+
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setImgIdx(imgIdx => imgIdx + 1);
+  //     setImgUrl(imgs[imgIdx]);
+  //     if (imgIdx === imgs.length - 1) setImgIdx(0);
+  //   }, 2000);
+
+  //   return () => clearInterval(interval);
+  // });
+
   useEffect(() => {
     const interval = setInterval(() => {
-      setImgUrl(imgs[imgIdx]);
-      setImgIdx(imgIdx => imgIdx + 1);
-      if (imgIdx === imgs.length - 1) setImgIdx(0);
-    }, 3500);
+      const slides = document.querySelectorAll(".slide-item");
+      slides[idx].style.display = "block";
+        if (idx === 0) {
+          slides[slides.length - 1].style.display = "none";
+        } else {
+          slides[idx - 1].style.display = "none";
+        }
+      setIdx(idx => idx + 1);
+      if (idx === slides.length - 1) setIdx(0);
+    }, 4000);
 
-      return () => clearInterval(interval);
+    return () => clearInterval(interval);
   });
 
   return (
     <div className="slideshow-container">
-      <div className="slide-item fade">
-        <img src={`../../assets/images/${imgUrl}`} alt="" />
-      </div>
-      {/* {imgs.map((img, i) => 
-        <Slide key={`slide ${i}`} imgUrl={img}/>
-        )} */}
-      {/* <button className="prev">&#10094;</button> */}
-      {/* <button className="next">&#10095;</button> */}
+      {imgs.map((img, i) => 
+        <div key={`slide ${i}`} className="slide-item fade">
+          <img src={`../../assets/images/${img}`} alt="" />
+        </div>
+        )}
     </div>
   )
 };
