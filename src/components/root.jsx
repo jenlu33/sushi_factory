@@ -4,16 +4,20 @@ import NavBar from './navbar';
 import Main from './main';
 import Menu from './menu/menu';
 import Directions from './directions';
+import Footer from "./footer";
 
 const Root = () => (
   <HashRouter>
     <div>
-        <NavBar />
+      <NavBar />
+      
       <Switch>
         <Route path="/menu" component={Menu} />
         <Route path="/directions" component={Directions} />
         <Route path="/" component={Main} />
       </Switch>
+
+      <Footer />
     </div>
   </HashRouter>
 )

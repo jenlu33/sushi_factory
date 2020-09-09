@@ -20,7 +20,7 @@ function Menu() {
         </div>
         <SushiMenuSection 
           menuType={sushiPlateMenu} title="Sushi Plates" customClass="plates"
-          imgURL={"plates04.jpg"}/>
+          imgURL={"01.jpg"}/>
         <SushiMenuSection menuType={sushiRollMenu} title="Sushi Rolls" customClass="rolls"/>
         <SushiMenuSection 
           menuType={sushiSidesMenu} title="Sides" customClass="sides"

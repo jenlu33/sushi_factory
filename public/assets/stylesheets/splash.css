@@ -1,8 +1,20 @@
 .splash-container {
   /* border: 1px solid red; */
   margin: 0 auto;
-  padding: 20px 40px;
-  width: 80%;
+  padding: 20px 0;
+  /* width: 90%; */
+}
+
+
+.splash-background {
+  /* background-color: black; */
+  background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  z-index: -2;
 }
 
 .splash-title-container {
@@ -26,6 +38,7 @@
   /* background-image: url("../images/yellow-watercolor-brush-stroke-2-12.png"); */
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  margin: 0 30px 0 60px;
   opacity: 0.7;
   height: 80%;
   width: 90%;
@@ -36,13 +49,14 @@
 .slideshow-container {
   /* border: 1px solid red; */
   background-color: black;
+  /* border-bottom: 45px solid black; */
   position: absolute;
-  left: 0;
-  width: 100%;
-  top: 114px;
-  z-index: -2;
-
   display: flex;
+  left: 0;
+  top: 114px;
+  width: 100%;
+  z-index: -2;
+  height: 55vh;
 }
 
 .slide-item {
@@ -57,7 +71,7 @@
 .slide-item > img {
   object-fit: cover;
   width: 100%;
-  height: 50vh;
+  height: 55vh;
 }
 
 .fade {
@@ -71,8 +85,80 @@
   100% {opacity: 1;}
 }
 
+.bottom-splash-container {
+  /* border: 1px solid green; */
+  /* background-color: #ffffff; */
+
+  display: flex;
+  justify-content: space-between;
+  margin: 176px auto 0;
+  /* margin: 15% auto 3%; */
+  padding: 20px;
+  /* width: 90%; */
+}
+
+.hours-container, .about-container {
+  border: 5px solid black;
+  border-style: solid dashed;
+  margin: 0 5px;
+  padding: 10px;
+}
+
+.about-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1.5;
+  padding: 20px;
+}
+
 .hours-container {
-  margin-top: 200px;
+  /* border: 1px solid red; */
+  flex: 1;
+  text-align: center;
+}
+
+.hours-title-container {
+  /* background-color: #fab260; */
+  background-color: #810000;
+  margin: 0 auto 10px;
+  padding: 5px;
+  transform: skewX(20deg);
+  width: 50%;
+}
+
+.hours-title {
+  color: white;
+  margin: 0;
+  text-shadow: 3px 3px black;
+  transform: skewX(-20deg);
+}
+
+.store-hours {
+  /* border: 1px solid blue; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+.store-hours > * {
+  margin: 10px 0;
+}
+
+.about-item {
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  text-align: justify;
+  width: 90%;
+}
+
+.about-q {
+  margin: 3px 0;
+}
+
+.about-a {
+  margin: 0;
 }
 
 
@@ -86,8 +172,22 @@
     top: 157px;
   }
 
+  .slideshow-container {
+    height: 30vh;
+  }
+
   .slide-item > img {
     height: 30vh;
+  }
+
+  .bottom-splash-container {
+    flex-direction: column;
+    margin-top: 83px;
+  }
+
+  .hours-container, .about-container {
+    border-style: dashed solid;
+    margin: 5px 0;
   }
 }
 
@@ -101,7 +201,15 @@
     height: 70px;
   }
 
+  .slideshow-container {
+    height: 20vh;
+  }
+
   .slide-item > img {
     height: 20vh;
+  }
+
+  .bottom-splash-container {
+    margin-top: 62px;
   }
 }
