@@ -14,7 +14,6 @@ footer > div {
   /* border: 1px solid red; */
   display: flex;
   align-items: center;
-  /* width: 20%; */
   justify-content: space-evenly;
 }
 

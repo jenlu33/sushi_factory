@@ -4,13 +4,13 @@ import MenuSection from './menuSection';
 import TeaSection from './teaSection'
 import SpecialsSection from "./specials";
 
-import sushiPlateMenu from '../../sushiPlateMenu';
-import sushiRollMenu from '../../sushiRollMenu';
-import sushiSidesMenu from '../../sushiSidesMenu';
-import milkTea from '../../milkTea';
-import icedTeaDodo from '../../icedTeaDodo';
-import specials from "../../specials";
-import teaExtras from '../../drinkExtras';
+import sushiPlateMenu from "../../data/sushiPlateMenu";
+import sushiRollMenu from "../../data/sushiRollMenu";
+import sushiSidesMenu from "../../data/sushiSidesMenu";
+import milkTea from "../../data/milkTea";
+import icedTeaDodo from "../../data/icedTeaDodo";
+import specials from "../../data/specials";
+import teaExtras from '../../data/drinkExtras';
 
 function Menu() {
 

@@ -2,3 +2,11 @@ body {
   font-family: "Jost", sans-serif;
   margin: 0;
 }
+
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(207, 207, 207);
+}
