@@ -7,9 +7,9 @@ function SushiMenuItem(props) {
   return (
     <div className={`sushi-menu-item ${customClass}-item`}>
       <span className={`highlight ${customClass}-highlight`}></span>
-      <div className="item-top">
+      <div className={`item-top specials`}>
         <p>{name}</p>
-        <p>{price.toFixed(2)}</p>
+        <p>{price && price.toFixed(2)}</p>
       </div>
       <div className="item-bottom">
         <p>{description}</p>

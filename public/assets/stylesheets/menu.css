@@ -41,6 +41,7 @@ h1, h2 {
   border: 5px solid black;
   border-style: dashed solid;
   display: flex;
+  /* align-items: center; */
   margin: 10px 0;
   width: 100%;
   padding: 20px;
@@ -48,6 +49,12 @@ h1, h2 {
 .plates-container, .sides-container, .tea-extras-container {
   /* border: 1px solid red; */
   justify-content: space-between;
+}
+.specials-container {
+  /* border: 1px solid red; */
+  background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+  flex-direction: column;
+  align-items: center;
 }
 
 .menu-section {
@@ -84,8 +91,24 @@ h1, h2 {
 .sides-title {
   text-align: right;
 }
-.tea-title {
+.tea-title, .tea-specials-title {
   text-align: center;
+}
+
+.specials-title-container {
+  background-color: #810000;
+  /* border: 5px solid black; */
+  margin-top: 20px;
+  transform: skew(-20deg);
+  text-align: center;
+  width: 100%;
+}
+
+.specials-title {
+  color: #f5efef;
+  margin: 10px;
+  text-shadow: 3px 3px black;
+  transform: skew(20deg);
 }
 
 .menu-items {
@@ -146,12 +169,50 @@ h1, h2 {
     margin: 0 auto 0 0;
   } */
 
+.specials-items {
+  /* background-image: url("https://www.transparenttextures.com/patterns/arches.png"); */
+  background-color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px 25px;
+}
+
+.specials-items-container {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.menu-side {
+  /* border: 1px solid red; */
+  width: 10%;
+}
+
+.specials-item {
+  text-align: center;
+}
+.specials-item > h4 {
+  margin: 0;
+}
+.specials-item > p {
+  margin: 2px 0 12px;
+}
+
 .highlight {
   /* border: 1px solid red; */
   position: absolute;
   width: 40%;
   height: 55px;
   opacity: 0;
+}
+
+.specials-highlight {
+  /* border: 1px solid red; */
+  /* left: 50%; */
+  right: 30%;
 }
 
 .highlight:hover {
@@ -322,5 +383,13 @@ h1, h2 {
 
   .highlight {
     width: 75%;
+  }
+
+  .menu-side {
+    display: none;
+  }
+
+  .specials-highlight {
+    right: 10%;
   }
 }
