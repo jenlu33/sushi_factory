@@ -13,7 +13,7 @@ class Navbar extends React.Component {
           </div>
           <div className="nav-btns">
             <Link to="/menu" className="nav-btn">Menu</Link>
-            <a href="#order" className="nav-btn">Order</a>
+            <Link to="/order" className="nav-btn">Order</Link>
             <Link to="/directions" className="nav-btn">Directions</Link>
           </div>
         </div>

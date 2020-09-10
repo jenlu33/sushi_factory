@@ -1,0 +1,68 @@
+.order-background {
+  /* left: 50%;
+  margin-left: -42.5vw;
+  width: 85vw; */
+}
+
+.order-container {
+  /* border: 1px solid red; */
+  background-color: #f5efef;
+  /* background-image: url("https://www.transparenttextures.com/patterns/arches.png"); */
+  height: 80vh;
+  margin: 0 auto;
+  padding: 20px 40px;
+  width: 80%;
+}
+
+.order-title-container {
+  /* border: 1px solid red; */
+  background-color: #810000;
+  margin: 10px auto 0;
+  padding: 1px 10px;
+  transform: skewX(20deg);
+  width: 50%;
+}
+
+.order-title {
+  color: #f5efef;
+  margin: 10px;
+  text-align: center;
+  text-shadow: 3px 3px black;
+  transform: skewX(-20deg);
+}
+
+.order-info {
+  border: 5px solid black;
+  border-style: dashed solid;
+  margin: 50px auto;
+  padding: 100px 20px;
+  text-align: center;
+  width: 90%;
+}
+
+.order-info > h3 {
+  font-size: 2em;
+}
+
+.num-highlight {
+  /* background-image: url("../images/red-paint-brush-stroke-21.png"); */
+  background-image: url("../images/orange-watercolor-brush-stroke-3-1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 5px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .order-title-container {
+    min-width: 250px;
+  }
+
+  .order-title {
+    font-size: 1.8em;
+    
+  }
+  .order-info > h3 {
+  font-size: 1.4em;
+}
+}

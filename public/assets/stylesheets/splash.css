@@ -6,8 +6,9 @@
 }
 
 
-.splash-background {
+.background-div {
   /* background-color: black; */
+  background-color: #f5efef;
   background-image: url("https://www.transparenttextures.com/patterns/arches.png");
   position: fixed;
   top: 0;
@@ -38,10 +39,10 @@
   /* background-image: url("../images/yellow-watercolor-brush-stroke-2-12.png"); */
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  margin: 0 30px 0 60px;
+  margin: 0 40px 0 60px;
   opacity: 0.7;
   height: 80%;
-  width: 90%;
+  width: 85%;
   top: 15%;
   z-index: -1;
 }

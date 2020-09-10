@@ -9,7 +9,7 @@ function Main() {
 
   return(
     <div className="splash-container">
-      <div className="splash-background"></div>
+      <div className="background-div"></div>
       
       <div className="splash-title-container">
         <h1 className="splash-title">Welcome</h1>
@@ -35,11 +35,13 @@ function Main() {
         <div className="about-container">
           <div className="about-item">
             <h3 className="about-q">Who are we?</h3>
-            <p className="about-a">We are a sushi and tea spot offering a large variety of delicious sushi and Taiwanese inspired beverages</p>
+            <p className="about-a">We are a casual sushi and tea spot offering a 
+              large variety of delicious sushi and Taiwanese inspired beverages</p>
           </div>
           <div className="about-item">
             <h3 className="about-q">Are you open?</h3>
-            <p className="about-a">YES! We are open! We are currently offering takeout, delivery, and limited dine-in. </p>
+            <p className="about-a">YES! We are open! We are currently offering takeout, 
+              delivery, and limited dine-in. </p>
           </div>
           <div className="about-item">
             <h3 className="about-q">What is bubble tea?</h3>
@@ -55,7 +57,8 @@ function Main() {
           </div>
           <div className="about-item">
             <h3 className="about-q">What is a dodo drink?</h3>
-            <p className="about-a">Our dodo drink is a sweet and tangy spin on the classic yakult drink (a Japanese sweetened probiotic milk beverage) mixed with a flavor of your choice!</p>
+            <p className="about-a">Our dodo drink is a sweet and tangy spin on the classic yakult drink 
+              (a Japanese sweetened probiotic milk beverage) mixed with a flavor of your choice!</p>
           </div>
         </div>
       </div>

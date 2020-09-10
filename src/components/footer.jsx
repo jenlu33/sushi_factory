@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faYelp } from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
   return (
@@ -13,11 +13,23 @@ function Footer() {
       </div>
       <div className="social-handles">
         {/* <p>Follow Us</p> */}
+        {/* <a className="footer-link text" href="">
+          Uber Eats
+        </a>
+        <a className="footer-link text" href="">
+          DoorDash
+        </a> */}
         <a
           className="footer-link"
           href="https://www.facebook.com/sushifactoryandtea"
         >
           <FontAwesomeIcon icon={faFacebook} size="lg" />
+        </a>
+        <a
+          className="footer-link"
+          href="https://www.yelp.com/biz/sushi-factory-blacksburg?osq=sushi"
+        >
+          <FontAwesomeIcon icon={faYelp} size="lg" />
         </a>
       </div>
     </footer>
