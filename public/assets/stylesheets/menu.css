@@ -52,7 +52,7 @@ h1, h2 {
 }
 .specials-container {
   /* border: 1px solid red; */
-  background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+  background-image: url("../images/arches.png");
   flex-direction: column;
   align-items: center;
 }
@@ -129,7 +129,6 @@ h1, h2 {
   display: flex;
   justify-content: center;
   /* background-color: #ffffff; */
-  /* background-image: url("https://www.transparenttextures.com/patterns/arches.png"); */
 }
 
 .menu-imgs > img {
@@ -170,7 +169,6 @@ h1, h2 {
   } */
 
 .specials-items {
-  /* background-image: url("https://www.transparenttextures.com/patterns/arches.png"); */
   background-color: rgba(255, 255, 255, 0.4);
   display: flex;
   flex-direction: column;
