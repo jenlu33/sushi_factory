@@ -1,15 +1,12 @@
 .splash-container {
-  /* border: 1px solid red; */
   margin: 0 auto;
   padding: 20px 0;
   padding-bottom: 2.5rem;
   position: relative;
-  /* width: 90%; */
 }
 
 
 .splash-background {
-  /* background-color: black; */
   background-color: #f5efef;
   background-image: url("../images/arches.png");
   position: fixed;
@@ -22,11 +19,9 @@
 
 .splash-title-container {
   position: relative;
-  /* margin: 0; */
 }
 
 .splash-title {
-  /* border: 1px solid red; */
   color: black;
   font-size: 7em;
   text-align: center;
@@ -35,11 +30,8 @@
 }
 
 .splash-highlight {
-  /* border: 1px solid red; */
   position: absolute;
-  /* background-image: url("../images/red-paint-brush-stroke-21.png"); */
   background-image: url("../images/yellow-paint-brush-stroke-1.png");
-  /* background-image: url("../images/yellow-watercolor-brush-stroke-2-12.png"); */
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin: 0 40px 0 60px;
@@ -51,13 +43,10 @@
 }
 
 .slideshow-container {
-  /* border: 1px solid red; */
   background-color: black;
-  /* border-bottom: 45px solid black; */
   position: absolute;
   display: flex;
   left: 0;
-  /* top: 114px; */
   top: 0;
   width: 100%;
   z-index: -2;
@@ -65,7 +54,6 @@
 }
 
 .slide-item {
-  /* background-color: gray; */
   display: none;
 }
 
@@ -86,21 +74,15 @@
 
 @keyframes fadeIn {
   0% {opacity: 0.5;}
-  /* 50% {opacity: 1;} */
   100% {opacity: 1;}
 }
 
 .bottom-splash-container {
-  /* border: 1px solid green; */
-  /* background-color: #ffffff; */
   display: flex;
   justify-content: space-between;
-  /* margin: 176px auto 0; */
   margin: 0 auto 25px;
   margin-top: 25vh;
-  /* margin: 15% auto 3%; */
   padding: 20px;
-  /* width: 90%; */
 }
 
 .hours-container, .about-container {
@@ -119,13 +101,11 @@
 }
 
 .hours-container {
-  /* border: 1px solid red; */
   flex: 1;
   text-align: center;
 }
 
 .hours-title-container {
-  /* background-color: #fab260; */
   background-color: #810000;
   margin: 0 auto 10px;
   padding: 5px;
@@ -141,7 +121,6 @@
 }
 
 .store-hours {
-  /* border: 1px solid blue; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -153,7 +132,6 @@
 }
 
 .about-item {
-  /* border: 1px solid red; */
   margin: 0 auto;
   text-align: justify;
   width: 90%;

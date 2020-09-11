@@ -1,8 +1,4 @@
 .container-v1 {
-  /* border: 1px solid red; */
-  /* background-color: #f5efef; */
-  /* background-image: url("../images/arches.png"); */
-  /* height: 80vh; */
   margin: 0 auto;
   padding: 20px 40px;
   position: relative;
@@ -10,7 +6,6 @@
 }
 
 .background-div {
-  /* border: 1px solid red; */
   background-color: #f5efef;
   background-image: url("../images/arches.png");
   position: fixed;
@@ -23,7 +18,6 @@
 }
 
 .title-container {
-  /* border: 1px solid red; */
   background-color: #810000;
   margin: 10px auto 0;
   padding: 1px 10px;
@@ -53,7 +47,6 @@
 }
 
 .num-highlight {
-  /* background-image: url("../images/red-paint-brush-stroke-21.png"); */
   background-image: url("../images/orange-watercolor-brush-stroke-3-1.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;

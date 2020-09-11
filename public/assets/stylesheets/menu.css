@@ -12,7 +12,6 @@ h1, h2 {
 }
 
 .menu-container {
-  /* border: 1px solid red; */
   background: #f5efef;
   display: flex;
   flex-direction: column;
@@ -25,8 +24,6 @@ h1, h2 {
 
 .menu-title-container {
   background-color: #810000;
-  /* background-color: #206a5d; */
-  /* box-shadow: -2px 2px 5px black; */
   color: #f5efef;
   transform:skew(20deg);
   width: 50%;
@@ -40,35 +37,27 @@ h1, h2 {
 }
 
 .menu-section-container {
-  /* background: #e97171; */
-  /* border-radius: 5%; */
   border: 5px solid black;
   border-style: dashed solid;
   display: flex;
-  /* align-items: center; */
   margin: 10px 0;
   width: 100%;
   padding: 20px;
 }
 .plates-container, .sides-container, .tea-extras-container {
-  /* border: 1px solid red; */
   justify-content: space-between;
 }
 .specials-container {
-  /* border: 1px solid red; */
   background-image: url("../images/arches.png");
   flex-direction: column;
   align-items: center;
 }
 
 .plates-section, .tea-extras-section {
-  /* border: 1px solid red; */
-  /* width: 50%; */
   flex: 1.5;
   margin-right: 30px;
 }
 .rolls-section {
-  /* border: 1px solid red; */
   margin: 0 auto;
   width: 100%;
 }
@@ -78,14 +67,11 @@ h1, h2 {
 }
 
 .section-title-container {
-  /* background-color: #ffcb8e; */
   background-color: #fab260;
   transform: skew(-20deg);
 }
 
 .menu-section-title {
-  /* color: #f5efef; */
-  /* text-shadow: 1px 1px 1px white; */
   padding: 5px 15px;
   transform: skew(20deg);
 }
@@ -98,7 +84,6 @@ h1, h2 {
 
 .specials-title-container {
   background-color: #810000;
-  /* border: 5px solid black; */
   margin-top: 20px;
   transform: skew(-20deg);
   text-align: center;
@@ -113,27 +98,19 @@ h1, h2 {
 }
 
 .menu-items {
-  /* border: 1px solid red; */
-  /* align-items: flex-end; */
   padding-right: 20px;
-  /* width: 100%; */
 }
 .rolls-items {
-  /* border: 1px solid red; */
   columns: 2;
 }
 
 .menu-imgs {
-  /* border: 1px solid blue; */
   flex: 1;
-  /* width: 40%; */
   display: flex;
   justify-content: center;
-  /* background-color: #ffffff; */
 }
 
 .menu-imgs > img {
-  /* border: 1px solid red; */
   margin: 10px 0;
   object-fit: cover;
   opacity: 0.6;
@@ -144,30 +121,19 @@ h1, h2 {
     transition-duration: 0.3s;
   }
   .sides-img, .tea-extra-img {
-    /* border: 1px solid blue; */
     max-width: 320px;
   }
 
 .sushi-menu-item {
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   padding: 0 15px 5px;
-  /* max-width: 650px; */
 
-  /* width: 100%; */
   -webkit-column-break-inside: avoid-column; 
   page-break-inside: avoid-column;
   break-inside: avoid-column;
 }
-  /* .sides-item {
-    margin: 0 0 0 auto;
-  }  */
-  /* .tea-extras-item {
-    border: 1px solid red;
-    margin: 0 auto 0 0;
-  } */
 
 .specials-items {
   background-color: rgba(255, 255, 255, 0.4);
@@ -179,14 +145,12 @@ h1, h2 {
 }
 
 .specials-items-container {
-  /* border: 1px solid red; */
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
 
 .menu-side {
-  /* border: 1px solid red; */
   width: 10%;
 }
 
@@ -201,7 +165,6 @@ h1, h2 {
 }
 
 .highlight {
-  /* border: 1px solid red; */
   position: absolute;
   width: 40%;
   height: 55px;
@@ -209,8 +172,6 @@ h1, h2 {
 }
 
 .specials-highlight {
-  /* border: 1px solid red; */
-  /* left: 50%; */
   right: 30%;
 }
 
@@ -223,11 +184,9 @@ h1, h2 {
 }
 
 .item-top {
-  /* border: 1px solid red; */
   margin: 5px 0;
 }
 .item-top > p {
-  /* border: 1px solid red; */
   margin: 0;
 }
 
@@ -245,11 +204,6 @@ h1, h2 {
   font-weight: bold;
 }
 
-/* .tea-header-container {
-  border: 1px solid red;
-  display: flex;
-} */
-
 .tea-section-container {
   border: 5px solid black;
   border-style: dashed solid;
@@ -259,7 +213,6 @@ h1, h2 {
 }
 
 .tea-price {
-  /* border: 1px solid red; */
   display: flex;
   justify-content: space-between;
   margin: 0px auto;
@@ -267,20 +220,16 @@ h1, h2 {
 }
 
 .sweetness-level {
-  /* border: 1px solid red; */
   font-weight: bold;
   text-align: center;
 }
 
 .flavors-title-container {
-  /* border: 1px solid red; */
   margin: 35px auto;
-  /* height: 20px; */
   width: 50%;
 }
 
 .flavors-title-background {
-  /* border: 1px solid red; */
   background-color: #97be80;
   height: 30px;
   margin: 0 auto;
@@ -291,7 +240,6 @@ h1, h2 {
 
 .flavors-title {
   margin: 15px;
-  /* position: absolute; */
   text-align: center;
   transform: skew(20deg, 12deg);
 }
@@ -306,7 +254,6 @@ h1, h2 {
 }
 
 .tea-flavors {
-  /* border: 1px solid red; */
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -317,7 +264,6 @@ h1, h2 {
 }
 
 .tea-flavors-item {
-  /* border: 1px solid black; */
   background-color: #fcbe78;
   box-shadow: 2px 2px 3px rgb(189, 189, 189);
   display: flex;
@@ -325,11 +271,6 @@ h1, h2 {
   justify-content: center;
   margin: 5px;
   padding: 5px;
-  /* transform:skew(20deg); */
-
-  /* -webkit-column-break-inside: avoid-column; 
-  page-break-inside: avoid-column;
-  break-inside: avoid-column; */
 }
 
 .tea-flavors-item > p {
@@ -338,9 +279,6 @@ h1, h2 {
 
 
 @media screen and (min-width: 1200px) {
-  /* .rolls-items {
-    columns: 1;
-  } */
   .tea-extras-highlight {
     width: 53%;
     left: 8%;
