@@ -62,8 +62,8 @@
 
 
 @media screen and (max-width: 600px) {
-  .title-container {
-    /* min-width: 250px; */
+  .container-v1 {
+    padding-bottom: 3.5rem;
   }
 
   .title-v1 {
