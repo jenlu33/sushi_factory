@@ -4,7 +4,7 @@
   width: 85vw; */
 }
 
-.order-container {
+.container-v1 {
   /* border: 1px solid red; */
   background-color: #f5efef;
   background-image: url("https://www.transparenttextures.com/patterns/arches.png");
@@ -14,7 +14,7 @@
   width: 80%;
 }
 
-.order-title-container {
+.title-container {
   /* border: 1px solid red; */
   background-color: #810000;
   margin: 10px auto 0;
@@ -23,7 +23,7 @@
   width: 50%;
 }
 
-.order-title {
+.title-v1 {
   color: #f5efef;
   margin: 10px;
   text-align: center;
@@ -31,7 +31,7 @@
   transform: skewX(-20deg);
 }
 
-.order-info {
+.info-box {
   border: 5px solid black;
   border-style: dashed solid;
   margin: 50px auto;
@@ -40,7 +40,7 @@
   width: 90%;
 }
 
-.order-info > h3 {
+.info-box > h3 {
   font-size: 2em;
 }
 

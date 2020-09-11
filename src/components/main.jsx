@@ -1,6 +1,4 @@
 import React from 'react';
-import About from './about';
-import Order from './order';
 import SlideShow from "./slideshow";
 
 function Main() {
