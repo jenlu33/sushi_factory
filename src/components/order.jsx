@@ -9,9 +9,9 @@ const Order = () => (
     </div>
     <div className="info-box">
       <h3>
-        Please call us at <span className="num-highlight">(540) 951-2380</span> to place a pickup or delivery order
+        Please call us at <span className="num-highlight">(540) 951-2380</span> to place a pickup order
       </h3>
-      <h4>We are also available on DoorDash, Uber Eats, and Beyond Menu.</h4>
+      <h4>We are also available on DoorDash, Uber Eats, and Beyond Menu for pickup and delivery orders.</h4>
     </div>
   </div>
 );
