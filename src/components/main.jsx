@@ -7,7 +7,7 @@ function Main() {
 
   return(
     <div className="splash-container">
-      <div className="background-div"></div>
+      <div className="splash-background"></div>
       
       <div className="splash-title-container">
         <h1 className="splash-title">Welcome</h1>

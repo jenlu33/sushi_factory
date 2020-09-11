@@ -1,8 +1,12 @@
 footer {
   background-color: black;
+  bottom: 0;
   color: white;
   display: flex;
-  padding: 10px 15px;
+  height: 2rem;
+  padding: 10px 0;
+  position: absolute;
+  width: 100%;
 }
 
 footer > div {

@@ -10,3 +10,8 @@ a {
 a:hover {
   color: rgb(207, 207, 207);
 }
+
+.main-div {
+  position: relative;
+  min-height: 100vh;
+}

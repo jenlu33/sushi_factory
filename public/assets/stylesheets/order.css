@@ -1,11 +1,25 @@
 .container-v1 {
   /* border: 1px solid red; */
-  background-color: #f5efef;
-  background-image: url("../images/arches.png");
-  height: 80vh;
+  /* background-color: #f5efef; */
+  /* background-image: url("../images/arches.png"); */
+  /* height: 80vh; */
   margin: 0 auto;
   padding: 20px 40px;
+  position: relative;
   width: 80%;
+}
+
+.background-div {
+  /* border: 1px solid red; */
+  background-color: #f5efef;
+  background-image: url("../images/arches.png");
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-left: -45%;
+  width: 90%;
+  height: 100%;
+  z-index: -1;
 }
 
 .title-container {
@@ -48,15 +62,16 @@
 
 
 @media screen and (max-width: 600px) {
-  .order-title-container {
-    min-width: 250px;
+  .title-container {
+    /* min-width: 250px; */
   }
 
-  .order-title {
-    font-size: 1.8em;
-    
+  .title-v1 {
+    font-size: 1.4em;
+    margin: 3px 5px;
   }
-  .order-info > h3 {
-  font-size: 1.4em;
-}
+
+  .info-box > h3 {
+  font-size: 1.2em;
+  }
 }

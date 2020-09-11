@@ -7,6 +7,10 @@ h1, h2 {
   font-family: 'Permanent Marker', cursive;
 }
 
+.main-menu-div {
+  padding-bottom: 2.5rem;
+}
+
 .menu-container {
   /* border: 1px solid red; */
   background: #f5efef;

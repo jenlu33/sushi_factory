@@ -2,11 +2,12 @@
   /* border: 1px solid red; */
   margin: 0 auto;
   padding: 20px 0;
+  padding-bottom: 2.5rem;
   /* width: 90%; */
 }
 
 
-.background-div {
+.splash-background {
   /* background-color: black; */
   background-color: #f5efef;
   background-image: url("../images/arches.png");

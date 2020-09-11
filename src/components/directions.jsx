@@ -1,8 +1,9 @@
 import React from "react";
 
 function Directions() {
-  return(
+  return (
     <div className="container-v1">
+      <div className="background-div"></div>
       <div className="title-container">
         <h1 className="title-v1">Directions</h1>
       </div>
@@ -11,7 +12,7 @@ function Directions() {
         <h4>We are located inside the University Mall on the left.</h4>
       </div>
     </div>
-  )
+  );
 };
 
 export default Directions;

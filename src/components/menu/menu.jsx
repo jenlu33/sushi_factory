@@ -15,7 +15,7 @@ import teaExtras from '../../data/drinkExtras';
 function Menu() {
 
   return(
-    <div>
+    <div className="main-menu-div">
       <div className="menu-container">
         <div className="menu-title-container">
           <h1 className="menu-title">Sushi</h1>

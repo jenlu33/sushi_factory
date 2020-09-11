@@ -9,7 +9,7 @@ import Footer from "./footer";
 
 const Root = () => (
   <HashRouter>
-    <div>
+    <div className="main-div">
       <NavBar />
       
       <Switch>

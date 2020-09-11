@@ -2,7 +2,7 @@ import React from 'react';
 
 const Order = () => (
   <div className="container-v1">
-    {/* <div className="background-div order-background"></div> */}
+    <div className="background-div"></div>
 
     <div className="title-container">
       <h1 className="title-v1">How to Order</h1>
