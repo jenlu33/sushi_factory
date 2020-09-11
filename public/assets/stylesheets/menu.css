@@ -57,9 +57,6 @@ h1, h2 {
   align-items: center;
 }
 
-.menu-section {
-  /* border: 1px solid red; */
-}
 .plates-section, .tea-extras-section {
   /* border: 1px solid red; */
   /* width: 50%; */
@@ -271,10 +268,6 @@ h1, h2 {
   text-align: center;
 }
 
-.flavors-container {
-  /* border: 1px solid red; */
-}
-
 .flavors-title-container {
   /* border: 1px solid red; */
   margin: 35px auto;
@@ -337,10 +330,6 @@ h1, h2 {
 
 .tea-flavors-item > p {
   margin: 5px 2px;
-}
-
-.tea-flavors-item > * {
-  /* transform: skew(-20deg); */
 }
 
 
