@@ -105,7 +105,7 @@
   text-align: center;
 }
 
-.hours-title-container {
+.splash-subtitle-container {
   background-color: #810000;
   margin: 0 auto 10px;
   padding: 5px;
@@ -113,9 +113,10 @@
   width: 50%;
 }
 
-.hours-title {
+.subtitle {
   color: white;
   margin: 0;
+  text-align: center;
   text-shadow: 3px 3px black;
   transform: skewX(-20deg);
 }
@@ -145,6 +146,27 @@
   margin: 0;
 }
 
+.announcements-container {
+  border: 5px solid black;
+  border-style: dashed solid;
+  margin: 0 auto 50px;
+  padding: 25px;
+  width: 80%;
+}
+
+.announcements-info {
+  /* border: 1px solid red; */
+  text-align: center;
+  margin: 0 auto;
+}
+
+.announcements-info > img {
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  object-fit: contain;
+  width: 50%;
+}
+
 
 @media screen and (max-width: 1024px) {
   .splash-title {
@@ -169,6 +191,10 @@
     border-style: dashed solid;
     margin: 5px 0;
   }
+
+  .announcements-info > img {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -191,5 +217,9 @@
 
   .bottom-splash-container {
     margin-top: 7vh;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
   }
 }

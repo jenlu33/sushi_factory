@@ -18,8 +18,8 @@ function Main() {
 
       <div className="bottom-splash-container">
         <div className="hours-container">
-          <div className="hours-title-container">
-            <h1 className="hours-title">Hours</h1>
+          <div className="splash-subtitle-container">
+            <h1 className="subtitle">Hours</h1>
           </div>
           <span className="store-hours"><h3>Monday</h3><p>11:30am - 10pm</p></span>
           <span className="store-hours"><h3>Tuesday</h3><p>11:30am - 10pm</p></span>
@@ -59,6 +59,17 @@ function Main() {
               (a Japanese sweetened probiotic milk beverage) mixed with a flavor of your choice!</p>
           </div>
         </div>
+      </div>
+
+      <div className="announcements-container">
+        <div className="splash-subtitle-container">
+          <h1 className="subtitle">Announcements</h1>
+        </div>
+          <div className="announcements-info">
+            <h3>Check out our seasonal drink specials!</h3>
+            <img src="../../assets/images/specials.png" alt=""/>
+          </div>
+
       </div>
 
       {/* {<About />} */}
