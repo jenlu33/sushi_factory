@@ -102,6 +102,7 @@ h1, h2 {
 }
 .rolls-items {
   columns: 2;
+  position: relative;
 }
 
 .menu-imgs {
@@ -156,6 +157,8 @@ h1, h2 {
 
 .specials-item {
   text-align: center;
+  position: relative;
+  width: 100%;
 }
 .specials-item > h4 {
   margin: 0;
@@ -165,14 +168,21 @@ h1, h2 {
 }
 
 .highlight {
+  /* border: 1px solid red; */
   position: absolute;
-  width: 40%;
+  width: 45%;
   height: 55px;
   opacity: 0;
 }
+.rolls-highlight {
+  width: 45%;
+}
 
 .specials-highlight {
-  right: 30%;
+  /* border: 1px solid red; */
+  left: 50%;
+  margin-left: -45%;
+  width: 90%;
 }
 
 .highlight:hover {
@@ -279,13 +289,17 @@ h1, h2 {
 
 
 @media screen and (min-width: 1200px) {
+  .tea-extras-item, .sides-item {
+    position: relative;
+  }
+
   .tea-extras-highlight {
-    width: 53%;
-    left: 8%;
+    width: 95%;
+    left: 3%;
   }
   .sides-highlight {
-    width: 55%;
-    right: 9%;
+    width: 97%;
+    right: 5%;
   }
 }
 
@@ -322,7 +336,4 @@ h1, h2 {
     display: none;
   }
 
-  .specials-highlight {
-    right: 10%;
-  }
 }
