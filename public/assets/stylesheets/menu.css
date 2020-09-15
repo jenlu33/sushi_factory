@@ -170,14 +170,16 @@ h1, h2 {
 .highlight {
   /* border: 1px solid red; */
   position: absolute;
-  width: 45%;
   height: 55px;
   opacity: 0;
+  width: 45%;
+}
+.plates-highlight {
+  max-width: 670px;
 }
 .rolls-highlight {
   width: 45%;
 }
-
 .specials-highlight {
   /* border: 1px solid red; */
   left: 50%;
