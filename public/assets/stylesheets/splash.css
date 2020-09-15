@@ -63,8 +63,8 @@
 
 .slide-item > img {
   object-fit: cover;
-  width: 100%;
   height: 55vh;
+  width: 100%;
 }
 
 .fade {
@@ -165,6 +165,24 @@
   margin: 0 auto;
   object-fit: contain;
   width: 50%;
+}
+
+@media screen and (min-width: 2000px) {
+  .splash-title {
+    font-size: 8rem;
+  }
+  .bottom-splash-container {
+    margin-top: 15vh;
+  }
+}
+
+@media screen and (min-height: 800px) {
+    .slideshow-container, .slide-item > img {
+    height: 50vh;
+  }
+    .bottom-splash-container {
+    margin-top: 23vh;
+  }
 }
 
 
