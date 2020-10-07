@@ -17,7 +17,7 @@ ReactGA.initialize("UA-179255435-1");
 const Root = () => {
   const history = createBrowserHistory();
   history.listen(() => {
-    console.log(history.location.hash);
+    // console.log(history.location.hash);
     ReactGA.set({ page: history.location.hash }); // Update the user's current page
     ReactGA.pageview(history.location.hash); // Record a pageview for the given page
   })
