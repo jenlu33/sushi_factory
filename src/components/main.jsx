@@ -22,37 +22,44 @@ function Main() {
           <div className="splash-subtitle-container">
             <h1 className="subtitle">Hours</h1>
           </div>
+          <h3>Winter 2020 Hours</h3>
           <span className="store-hours">
             <h3>Monday</h3>
-            <p>11:30am - 10pm</p>
+            <p>CLOSED</p>
           </span>
           <span className="store-hours">
             <h3>Tuesday</h3>
-            <p>11:30am - 10pm</p>
+            <p>11:30am - 9pm</p>
           </span>
           <span className="store-hours">
             <h3>Wednesday</h3>
-            <p>11:30am - 10pm</p>
+            <p>11:30am - 9pm</p>
           </span>
           <span className="store-hours">
             <h3>Thursday</h3>
-            <p>11:30am - 10pm</p>
+            <p>11:30am - 9pm</p>
           </span>
           <span className="store-hours">
             <h3>Friday</h3>
-            <p>11:30am - 10pm</p>
+            <p>11:30am - 9pm</p>
           </span>
           <span className="store-hours">
             <h3>Saturday</h3>
-            <p>11:30am - 10pm</p>
+            <p>11:30am - 9pm</p>
           </span>
           <span className="store-hours">
             <h3>Sunday</h3>
-            <p>11:30am - 10pm</p>
+            <p>11:30am - 9pm</p>
           </span>
         </div>
 
         <div className="about-container">
+          <div className="about-item">
+            <h3 className="about-q">Are you open on Thanksgiving?</h3>
+            <p className="about-a">
+              We will be closed from Thursday (11/26) to Monday (11/30), and re-open on Tuesday (12/1)
+            </p>
+          </div>
           <div className="about-item">
             <h3 className="about-q">Who are we?</h3>
             <p className="about-a">
