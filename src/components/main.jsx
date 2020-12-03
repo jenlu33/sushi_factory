@@ -51,15 +51,12 @@ function Main() {
             <h3>Sunday</h3>
             <p>11:30am - 9pm</p>
           </span>
+          <span>
+            <p>Sushi is stopped being served 30 minutes before closing time</p>
+          </span>
         </div>
 
         <div className="about-container">
-          <div className="about-item">
-            <h3 className="about-q">Are you open on Thanksgiving?</h3>
-            <p className="about-a">
-              We will be closed from Thursday (11/26) to Monday (11/30), and re-open on Tuesday (12/1)
-            </p>
-          </div>
           <div className="about-item">
             <h3 className="about-q">Who are we?</h3>
             <p className="about-a">
