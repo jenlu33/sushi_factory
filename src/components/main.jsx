@@ -25,7 +25,7 @@ function Main() {
           <h3>Winter 2020 Hours</h3>
           <span className="store-hours">
             <h3>Monday</h3>
-            <p>CLOSED</p>
+            <p>11:30am - 9pm</p>
           </span>
           <span className="store-hours">
             <h3>Tuesday</h3>
@@ -65,10 +65,10 @@ function Main() {
             </p>
           </div>
           <div className="about-item">
-            <h3 className="about-q">Are you open?</h3>
+            <h3 className="about-q">Are we open?</h3>
             <p className="about-a">
               YES! We are open! We are currently offering takeout, delivery, and
-              limited dine-in.{" "}
+              limited dine-in.
             </p>
           </div>
           <div className="about-item">
@@ -119,10 +119,6 @@ function Main() {
           }
         </div>
       </div>
-
-      {/* {<About />} */}
-
-      {/* {<Order />} */}
     </div>
   );
 }
