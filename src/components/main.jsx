@@ -22,37 +22,37 @@ function Main() {
           <div className="splash-subtitle-container">
             <h1 className="subtitle">Hours</h1>
           </div>
-          <h3>Winter 2020 Hours</h3>
+          
           <span className="store-hours">
             <h3>Monday</h3>
-            <p>11:30am - 9pm</p>
+            <p>11:30am - 10pm</p>
           </span>
           <span className="store-hours">
             <h3>Tuesday</h3>
-            <p>11:30am - 9pm</p>
+            <p>11:30am - 10pm</p>
           </span>
           <span className="store-hours">
             <h3>Wednesday</h3>
-            <p>11:30am - 9pm</p>
+            <p>11:30am - 10pm</p>
           </span>
           <span className="store-hours">
             <h3>Thursday</h3>
-            <p>11:30am - 9pm</p>
+            <p>11:30am - 10pm</p>
           </span>
           <span className="store-hours">
             <h3>Friday</h3>
-            <p>11:30am - 9pm</p>
+            <p>11:30am - 10pm</p>
           </span>
           <span className="store-hours">
             <h3>Saturday</h3>
-            <p>11:30am - 9pm</p>
+            <p>11:30am - 10pm</p>
           </span>
           <span className="store-hours">
             <h3>Sunday</h3>
-            <p>11:30am - 9pm</p>
+            <p>11:30am - 10pm</p>
           </span>
           <span>
-            <p>Sushi is stopped being served 30 minutes before closing time</p>
+            <p>We stop serving sushi 30 minutes before closing time</p>
           </span>
         </div>
 
