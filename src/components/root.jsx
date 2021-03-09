@@ -14,7 +14,7 @@ ReactGA.initialize("UA-179255435-1");
 // ReactGA.pageview("/homepage");
 
 
-const Root = () => {
+function Root() {
   const history = createBrowserHistory();
   history.listen(() => {
     // console.log(history.location.hash);
