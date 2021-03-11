@@ -36,11 +36,6 @@ const milkTea = {
       hot: true
     },
     {
-      flavor: "Hazelnut",
-      favorite: false,
-      hot: true
-    },
-    {
       flavor: "Mango",
       favorite: true,
       hot: false
