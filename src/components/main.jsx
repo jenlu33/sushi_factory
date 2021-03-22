@@ -106,11 +106,6 @@ function Main() {
         </div>
         <div className="announcements">
           {<Announcements 
-            imgUrl="../../assets/images/spring-event.png" 
-            alt="spring special event" 
-            desc="Special BOGO event for spring! (March 20th & 21st)" />
-          }
-          {<Announcements 
             imgUrl="../../assets/images/almond-milk.png" 
             alt="almond milk available" 
             desc="We now have almond milk available!" />
