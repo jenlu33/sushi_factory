@@ -29,4 +29,4 @@ function FAQ() {
     )
 };
 
-export default Order;
+export default FAQ;
