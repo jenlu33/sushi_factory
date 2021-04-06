@@ -7,6 +7,7 @@ import Main from './main';
 import Menu from './menu/menu';
 import Order from "./order";
 import Directions from './directions';
+import FAQ from './FAQ';
 import Footer from "./footer";
 
 
@@ -31,6 +32,7 @@ function Root() {
           <Route path="/menu" component={Menu} />
           <Route path="/order" component={Order} />
           <Route path="/directions" component={Directions} />
+          <Route path="/FAQ" component={FAQ} />
           <Route path="/" component={Main} />
         </Switch>
 

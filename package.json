@@ -48,5 +48,17 @@
   "devDependencies": {
     "css-loader": "^3.6.0",
     "style-loader": "^1.2.1"
-  }
+  },
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svvatty/sushi_factory.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svvatty/sushi_factory/issues"
+  },
+  "homepage": "https://github.com/svvatty/sushi_factory#readme"
 }
