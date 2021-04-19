@@ -42,6 +42,15 @@
   width: 90%;
 }
 
+.info-box-topPadLow {
+  border: 5px solid black;
+  border-style: dashed solid;
+  margin: 50px auto;
+  padding: 70px 20px;
+  text-align: center;
+  width: 90%;
+}
+
 .info-box > h3 {
   font-size: 2em;
 }
@@ -68,3 +77,6 @@
   font-size: 1.2em;
   }
 }
+
+
+

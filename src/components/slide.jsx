@@ -1,3 +1,4 @@
+import { requirePropFactory } from "@material-ui/core";
 import React from "react";
 import { useState, useEffect } from "react";
 
@@ -33,7 +34,8 @@ function Slide(props) {
   return(
     <div>
       <div className="slide-item fade">
-        <img src={`../../assets/images/${img}`} alt=""/>
+        {/* Swat -- view images */}
+        <img src={process.env.PUBLIC_URL + `/assets/images/${img}`} alt=""/>
       </div>
       {/* <button className="but" onClick={showSlides}>click me</button> */}
     </div>

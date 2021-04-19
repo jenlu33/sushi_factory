@@ -1,3 +1,4 @@
+// import { requirePropFactory } from "@material-ui/core";
 import React from "react";
 // import Slide from "./slide";
 import { useState, useEffect } from "react";
@@ -39,7 +40,8 @@ function SlideShow(props) {
     <div className="slideshow-container">
       {imgs.map((img, i) => 
         <div key={`slide ${i}`} className="slide-item fade">
-          <img src={`../../assets/images/${img}`} alt="" />
+          {/* Swat -- view images */}
+          <img src={process.env.PUBLIC_URL + `/assets/images/${img}`} alt="" />
         </div>
         )}
     </div>
