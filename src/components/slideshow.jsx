@@ -40,7 +40,7 @@ function SlideShow(props) {
     <div className="slideshow-container">
       {imgs.map((img, i) => 
         <div key={`slide ${i}`} className="slide-item fade">
-          {/* Swat -- view images */}
+          {/* Added 'process.env.PUBLIC_URL' becuase I was not able to view images locally when building app -- Swat */}
           <img src={process.env.PUBLIC_URL + `/assets/images/${img}`} alt="" />
         </div>
         )}

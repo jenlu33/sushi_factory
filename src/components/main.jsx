@@ -112,12 +112,14 @@ function Main() {
         </div>
         <div className="announcements">
           {<Announcements 
+            // added 'process.env.PUBLIC_URL to access public folder which
             imgUrl= {process.env.PUBLIC_URL + "/assets/images/almond-milk.png"}
             alt="almond milk available" 
             desc="We now have almond milk available!" />
           }
           {
             <Announcements
+            // added 'process.env.PUBLIC_URL to access public folder which
             imgUrl= {process.env.PUBLIC_URL + "/assets/images/specials.png"}
             alt="drink specials"
             desc="Check out our seasonal drink specials!"
