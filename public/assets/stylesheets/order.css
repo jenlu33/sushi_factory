@@ -42,8 +42,7 @@
   width: 90%;
 }
 
-
-/* Used to reduced top padding for FAQ div */
+/* Used to reduced top padding for FAQ div just for visual purposes */
 .info-box-topPadLow {
   border: 5px solid black;
   border-style: dashed solid;
