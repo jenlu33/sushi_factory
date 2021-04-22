@@ -373,3 +373,17 @@ h1, h2 {
   }
 
 }
+
+/* ****************************
+Gallery Slideshow CSS -- Swat
+******************************/
+
+.gallery-box {
+  border: 5px solid black;
+  border-style: dashed solid;
+  margin: 50px auto;
+  padding: 70px 20px 70px;
+  text-align: center;
+  width: 90%;
+}
+

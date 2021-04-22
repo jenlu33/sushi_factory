@@ -97,6 +97,12 @@ function Main() {
               flavor of your choice!
             </p>
           </div>
+          {/* Add new element on home page 'FAQ' that redirects to FAQ page -- Swat */}
+          <div>
+            <p className="read-more">
+              <a id="read-more" href="#FAQ">Read more...</a>
+            </p>
+          </div>
         </div>
       </div>
 
@@ -106,13 +112,15 @@ function Main() {
         </div>
         <div className="announcements">
           {<Announcements 
-            imgUrl="../../assets/images/almond-milk.png" 
+            // added 'process.env.PUBLIC_URL to access public folder which
+            imgUrl= {process.env.PUBLIC_URL + "/assets/images/almond-milk.png"}
             alt="almond milk available" 
             desc="We now have almond milk available!" />
           }
           {
             <Announcements
-            imgUrl="../../assets/images/specials.png"
+            // added 'process.env.PUBLIC_URL to access public folder which
+            imgUrl= {process.env.PUBLIC_URL + "/assets/images/specials.png"}
             alt="drink specials"
             desc="Check out our seasonal drink specials!"
             />

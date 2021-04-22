@@ -5,7 +5,8 @@ function menuImages(props) {
   const customClass = props.customClass;
   return (
     <div className={`menu-imgs ${customClass}`}>
-      <img src={`../../assets/images/${url}`} alt="" />
+      {/* Added 'process.env.PUBLIC_URL' becuase I was not able to view images locally when building app -- Swat */}
+      <img src={process.env.PUBLIC_URL + `/assets/images/${url}`} alt="" />
     </div>
   )
 };
