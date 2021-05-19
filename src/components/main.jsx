@@ -25,7 +25,7 @@ function Main() {
           <h3>SUMMER 2021 HOURS</h3>
           <span className="store-hours">
             <h3>Monday</h3>
-            <p>11:30am - 8:30pm</p>
+            <p>CLOSED</p>
           </span>
           <span className="store-hours">
             <h3>Tuesday</h3>
