@@ -33,6 +33,8 @@ function Root() {
           <Route path="/gallery" component={Gallery} />
           <Route path="/FAQ" component={FAQ} />
           <Route path="/" component={Main} />
+          <Route path="/wakemydyno.txt" />
+          
         </Switch>
 
         <Footer />
