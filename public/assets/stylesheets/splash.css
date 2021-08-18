@@ -55,6 +55,7 @@
 
 .slide-item {
   display: none;
+  width: 100%;
 }
 
 .slide-item:first-child {
