@@ -24,7 +24,7 @@ function Main() {
           </div>
           <span className="store-hours">
             <h3>Monday</h3>
-            <p>11:30am - 10:00pm</p>
+            <p>CLOSED</p>
           </span>
           <span className="store-hours">
             <h3>Tuesday</h3>
