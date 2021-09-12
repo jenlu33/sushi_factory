@@ -1,16 +1,16 @@
 const drinkExtras = [
   {
     name: "Add Bubbles",
-    price: 0.60
+    price: 0.80
   },
   {
     name: "Add Jelly",
     description: "Lychee, Rainbow, Matcha, Coffee",
-    price: 0.60
+    price: 0.80
   },
   {
     name: "Extra Flavor",
-    price: 0.50
+    price: 0.8
   },
   {
     name: "Make it a Slush",

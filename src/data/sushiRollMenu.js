@@ -2,72 +2,72 @@ const sushiRollMenu = [
   {
     name: "California Roll",
     description: "6 Pieces: Imitation Crab, Avocado, Fish Roe",
-    price: 5.45
+    price: 5.75
   },
   {
     name: "Alaska Roll",
     description: "6 Pieces: Tuna, Salmon, Avocado",
-    price: 5.45
+    price: 5.75
   },
   {
     name: "Spicy Tuna Roll",
     description: "6 Pieces: Tuna, Cucumber, Spicy Sauce",
-    price: 5.45
+    price: 5.75
   },
   {
     name: "Spicy White Tuna Roll",
     description: "6 Pieces: White Tuna, Cucumber, Spicy Sauce",
-    price: 5.45
+    price: 5.75
   },
   {
     name: "Spicy Salmon Roll",
     description: "6 Pieces: Salmon, Cucumber, Spicy Sauce",
-    price: 5.45
+    price: 5.75
   },
   {
     name: "Spicy Red Snapper Roll",
     description: "6 Pieces: Red Snapper, Cucumber, Spicy Sauce",
-    price: 5.45
+    price: 5.75
   },
   {
     name: "Spicy Yellowtail Roll",
     description: "6 Pieces: Yellowtail, Cucumber, Spicy Sauce",
-    price: 5.45
+    price: 5.75
   },
   {
     name: "Eel Roll",
     description: "6 Pieces: Eel, Cucumber, Eel Sauce",
-    price: 5.45
+    price: 5.75
   },
   {
     name: "Philadelphia Roll",
     description: "6 Pieces: Smoked Salmon, Cucumber, Cream Cheese",
-    price: 5.45
+    price: 5.75
   },
   {
     name: "Grilled Chicken Roll",
     description: "6 Pieces: Grilled Chicken, Avocado, Eel Sauce, Mayo",
-    price: 5.45
+    price: 5.75
   },
   {
     name: "Smokey Roll",
     description: "6 Pieces: Smoked Salmon, Avocado",
-    price: 5.45
+    price: 5.75
   },
   {
     name: "Tofu Pockets",
     description: "3 Pieces: Filled with Seasoned Rice and Sesame Seeds",
-    price: 5.45
+    price: 5.75
   },
   {
     name: "Tuna Roll",
     description: "6 Pieces: Tuna",
-    price: 4.40
+    price: 4.90
   },
   {
     name: "Salmon Roll",
     description: "6 Pieces: Salmon",
-    price: 4.40
+    price: 4.90
   },
   {
     name: "Avocado Roll",
@@ -97,7 +97,7 @@ const sushiRollMenu = [
   {
     name: "Shutem Roll",
     description: "5 Pieces: Shrimp Tempura, Avocado, Cucumber, Chef's Sauce, Mayo, Fish Roe",
-    price: 7.99
+    price: 8.45
   },
   {
     name: "Shrimp Pop Roll",
@@ -172,7 +172,7 @@ const sushiRollMenu = [
   {
     name: "Fish Bowl",
     description: "Seasoned Rice topped with 5 Pieces of Chef's Choice Sashimi, Avocado, Cucumber, Tamago, and Imitation Crab",
-    price: 11.99
+    price: 12.99
   },
   {
     name: "Big Belly Roll",

@@ -19,7 +19,7 @@ const sushiSidesMenu = [
   {
     name: "Nigiri/Sashimi",
     description: "2 pieces per order",
-    price: 3.75
+    price: 4.25
   },
   {
     name: "Seaweed Salad",
