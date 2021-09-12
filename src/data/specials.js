@@ -30,6 +30,11 @@ const specials = [
       "Kumquat, lemon, honey, and passion fruit green tea with lychee jellies",
   },
   {
+    name: "Sunset",
+    description:
+      "Guava and passion fruit green tea with rainbow jellies",
+  },
+  {
     name: "Hello Kitty",
     description: "Strawberry and lychee green tea with rainbow jellies",
   },

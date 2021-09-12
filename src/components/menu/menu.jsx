@@ -72,6 +72,13 @@ function Menu() {
         onClick={scrollToTop} 
         style={{ fontSize: "3rem", opacity: showScrollArrow ? "0.9" : "0", animation: showScrollArrow ? "fadeIn 0.3s" : "fadeOut 0.5s" }} 
         className="scroll-up-btn" />
+
+      <div>
+        <h3 className="consumer-warning">
+          *CONSUMING RAW OR UNDERCOOKED MEATS, POULTRY, SEAFOOD, SHELLFISH, OR EGGS MAY INCREASE YOUR
+          RISK OF FOODBORNE ILLNESS, ESPECIALLY IF YOU HAVE CERTAIN MEDICAL CONDITIONS. 
+        </h3>
+      </div>
     </div>
   );
 };
