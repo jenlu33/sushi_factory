@@ -28,27 +28,27 @@ function Main() {
           </span>
           <span className="store-hours">
             <h3>Tuesday</h3>
-            <p>11:30am - 10:00pm</p>
+            <p>11:30am - 9:30pm</p>
           </span>
           <span className="store-hours">
             <h3>Wednesday</h3>
-            <p>11:30am - 10:00pm</p>
+            <p>11:30am - 9:30pm</p>
           </span>
           <span className="store-hours">
             <h3>Thursday</h3>
-            <p>11:30am - 10:00pm</p>
+            <p>11:30am - 9:30pm</p>
           </span>
           <span className="store-hours">
             <h3>Friday</h3>
-            <p>11:30am - 10:00pm</p>
+            <p>11:30am - 9:30pm</p>
           </span>
           <span className="store-hours">
             <h3>Saturday</h3>
-            <p>11:30am - 10:00pm</p>
+            <p>11:30am - 9:30pm</p>
           </span>
           <span className="store-hours">
             <h3>Sunday</h3>
-            <p>11:30am - 10:00pm</p>
+            <p>11:30am - 9:30pm</p>
           </span>
           <span>
             <p>We stop serving sushi 30 minutes before closing time</p>
