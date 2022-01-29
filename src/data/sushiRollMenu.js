@@ -112,7 +112,7 @@ const sushiRollMenu = [
   {
     name: "VIP Roll",
     description: "5 Pieces: Tuna, Eel, Avocado, Spicy Sauce, Eel Sauce",
-    price: 7.99
+    price: 8.45
   },
   {
     name: "Factory Roll",

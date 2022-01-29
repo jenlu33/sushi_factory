@@ -5,7 +5,7 @@ const sushiSidesMenu = [
   },
   {
     name: "Miso Soup",
-    price: 1.99
+    price: 2.25
   },
   {
     name: "Sushi Rice",
@@ -17,7 +17,7 @@ const sushiSidesMenu = [
     price: 3.95
   },
   {
-    name: "Nigiri/Sashimi",
+    name: "Nigiri",
     description: "2 pieces per order",
     price: 4.25
   },
