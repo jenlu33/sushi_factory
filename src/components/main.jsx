@@ -22,6 +22,7 @@ function Main() {
           <div className="splash-subtitle-container">
             <h1 className="subtitle">Hours</h1>
           </div>
+            <p>We will be CLOSED for spring break until Monday, March 14th!</p>
           <span className="store-hours">
             <h3>Monday</h3>
             <p>CLOSED</p>
@@ -51,7 +52,7 @@ function Main() {
             <p>11:30am - 9:30pm</p>
           </span>
           <span>
-            <p>We stop serving sushi 30 minutes before closing time</p>
+            {/* <p>We stop serving sushi 30 minutes before closing time</p> */}
           </span>
         </div>
 
