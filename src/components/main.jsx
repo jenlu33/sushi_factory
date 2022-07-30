@@ -22,6 +22,7 @@ function Main() {
           <div className="splash-subtitle-container">
             <h1 className="subtitle">Hours</h1>
           </div>
+          We will be closed from July 31st to August 8th! Reopening on Tuesday, August 9th!
           <span className="store-hours">
             <h3>Monday</h3>
             <p>CLOSED</p>
