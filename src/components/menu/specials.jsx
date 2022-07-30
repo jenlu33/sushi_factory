@@ -11,7 +11,7 @@ function Specials(props) {
       <div className="specials-items-container">
         <div className="menu-side"></div>
         <div className="specials-items">
-          <h3>5.95</h3>
+          <h3>6.45</h3>
           {menuType.map((item, i) => (
             <div key={`specials ${i}`} className="specials-item">
               <span className="highlight specials-highlight"></span>

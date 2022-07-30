@@ -2,21 +2,21 @@ const icedTeaDodo = {
   teaPrice: [
     {
       size: "medium",
-      price: 3.35
+      price: 3.75
     },
     {
       size: "large",
-      price: 4.25
+      price: 4.75
     }
   ],
   dodoPrice: [
     {
       size: "medium",
-      price: 3.65
+      price: 3.95
     },
     {
       size: "large",
-      price: 4.65
+      price: 4.95
     }
   ],
   flavors:[

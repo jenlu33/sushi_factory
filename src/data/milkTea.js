@@ -2,11 +2,11 @@ const milkTea = {
   pricing: [
     {
       size: "medium",
-      price: 4.55
+      price: 4.95
     },
     {
       size: "large",
-      price: 5.55
+      price: 5.95
     },
   ],
   flavors: [
