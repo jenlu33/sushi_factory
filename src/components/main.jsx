@@ -22,36 +22,33 @@ function Main() {
           <div className="splash-subtitle-container">
             <h1 className="subtitle">Summer Hours</h1>
           </div>
-          <h3>
-            We will be closed from July 31st to August 8th! Reopening on Tuesday, August 9th!
-          </h3>
           <span className="store-hours">
             <h3>Monday</h3>
             <p>CLOSED</p>
           </span>
           <span className="store-hours">
             <h3>Tuesday</h3>
-            <p>11:30am - 8:30pm</p>
+            <p>11:30am - 9:30pm</p>
           </span>
           <span className="store-hours">
             <h3>Wednesday</h3>
-            <p>11:30am - 8:30pm</p>
+            <p>11:30am - 9:30pm</p>
           </span>
           <span className="store-hours">
             <h3>Thursday</h3>
-            <p>11:30am - 8:30pm</p>
+            <p>11:30am - 9:30pm</p>
           </span>
           <span className="store-hours">
             <h3>Friday</h3>
-            <p>11:30am - 8:30pm</p>
+            <p>11:30am - 9:30pm</p>
           </span>
           <span className="store-hours">
             <h3>Saturday</h3>
-            <p>11:30am - 8:30pm</p>
+            <p>11:30am - 9:30pm</p>
           </span>
           <span className="store-hours">
             <h3>Sunday</h3>
-            <p>CLOSED</p>
+            <p>11:30am - 9:30pm</p>
           </span>
           <span>
             <p>We stop serving sushi 30 minutes before closing time</p>
