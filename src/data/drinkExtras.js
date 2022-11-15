@@ -5,7 +5,7 @@ const drinkExtras = [
   },
   {
     name: "Add Jelly",
-    description: "Lychee, Rainbow, Strawberry Poppers",
+    description: "Lychee, Rainbow, Matcha, Coffee",
     price: 0.80
   },
   {

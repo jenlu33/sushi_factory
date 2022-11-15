@@ -20,7 +20,7 @@ function Main() {
       <div className="bottom-splash-container">
         <div className="hours-container">
           <div className="splash-subtitle-container">
-            <h1 className="subtitle">Summer Hours</h1>
+            <h1 className="subtitle">Hours</h1>
           </div>
           <span className="store-hours">
             <h3>Monday</h3>
