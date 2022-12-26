@@ -22,7 +22,8 @@ function Main() {
           <div className="splash-subtitle-container">
             <h1 className="subtitle">Hours</h1>
           </div>
-          <span className="store-hours">
+          We are closed until January 9th, 2023. Reopning January 10th, 2023 @ 11:30AM
+          {/* <span className="store-hours">
             <h3>Monday</h3>
             <p>CLOSED</p>
           </span>
@@ -52,7 +53,7 @@ function Main() {
           </span>
           <span>
             <p>We stop serving sushi 30 minutes before closing time</p>
-          </span>
+          </span> */}
 
         </div>
 
